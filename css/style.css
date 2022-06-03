@@ -1,0 +1,269 @@
+
+/*  ----------------- fonts ----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Shadows+Into+Light&family=Teko&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* ----------------- header ----------------- */
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #111111;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav__logo img {
+    width: 182px;
+}
+.header__nav {
+}
+.nav__menu {
+    width: 100%;
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+}
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-size: 400;
+}
+.nav__item {
+    position: relative;
+    margin: 10px 20px;
+    color: #cccccc;
+}
+.nav__link {
+    color: inherit;
+}
+.nav__link::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+    transition: transform 0.25s;
+    transform-origin: left;
+}
+.nav__link:hover {
+    color: #fff;
+}
+.nav__link:hover:before {
+    transform: scaleX(1);
+    transition: transform 0.25s;
+}
+.nav__button {
+    position: relative;
+    z-index: 5;
+    flex: 0 0 252px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav__socials{
+    margin: auto 0;
+}
+.nav__socials-list{
+    color:#ffc123;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    vertical-align: baseline;
+}
+.nav__socials-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+    border: 1px solid #ffc123;
+}
+.nav__socials-item {
+    font-size: 16px;
+    color: #ffc123;
+    transition: color .2s ease-out;
+}
+.nav__socials-item a {
+    color: inherit;
+}
+.nav__socials-item:hover {
+    background-color: #ffc123;
+    color: #111111;
+}
+/* ------------- burger ---------------------- */
+/* .close-icon-menu,
+.icon-menu {
+    display: none;
+} */
+@media (max-width: 991.98px){
+    .nav__button {
+        flex: 0 0 170px;
+    }
+    .icon-menu {
+        display: flex;
+        position: relative;
+        flex: 0 0 30px;
+        width: 24px;
+        height: 18px;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0px 0px 0px 20px;
+    }
+    .icon-menu::before,
+    .icon-menu::after{
+        content: "";
+        background-color: #fff;
+        height: 2px;
+    }
+    .icon-menu span{
+        background-color: #fff;
+        height: 2px;
+    }
+    .close-icon-menu {
+        flex: 0 0 30px;
+        height: 30px;
+        position: relative;
+        margin: 0px 0px 0px 20px;
+    }
+    .close-icon-menu::before,
+    .close-icon-menu::after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left:0;
+        width: 100%;
+        background-color: #fff;
+        height: 2px;
+    }
+    .close-icon-menu::before{
+        transform: rotate(45deg);
+    }
+    .close-icon-menu::after{
+        transform: rotate(-45deg);
+    }
+    .header:target .icon-menu{
+        display: none;
+    }
+    .header:target .close-icon-menu{
+        display: flex;
+    }
+}
+
+
+
+/*  ----------------- main ----------------- */
+.main {
+    flex: 1 1 auto;
+}
+
+/*  ----------------- footer  ----------------- */
+.footer {
+    background-color: #111111;
+    height: 200px;
+}
+
+/* ------------- Home ----------------- */
+
+
+
+
+
+/*  -----------------  Menu ----------------- */
+
+     
+
+
+/*  -----------------  friday-deal ----------------- */
+
+
+
+
+/*  -----------------  botteled ----------------- */
+
+
+
+
+/*  -----------------  top-choise ----------------- */
+
+
+
+
+/*  -----------------  story ----------------- */
+
+
+
+
+/*  -----------------  testimonials ----------------- */
+
+
+
+
+
+/*  -----------------  blog ----------------- */
+
+
+
+
+/*  -----------------  brands ----------------- */
+
+
