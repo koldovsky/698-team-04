@@ -54,6 +54,6 @@
     font-size: 128px;
   }
   .header__home iframe {
-    background-size: 50%;
+    background: none;
   }
 }
