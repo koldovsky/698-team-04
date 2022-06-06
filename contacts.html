@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacts.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Beer Pub Website</title>
     <meta name="description"
@@ -16,8 +17,12 @@
     <meta property="og:description" content="The best beer comes with the best foods!">
     <meta property="og:image" content="img/screen.png">
     <meta property="og:image:secure_url" content="img/screen.png">
-    <link rel="icon" type="image/png" href="img/beer.png" sizes="16x16">
-    <link rel="apple-touch-icon" sizes="167x167" href="img/beer.png">
+
+    <!-- <link rel="icon" type="image/png" href="img/beer.png" sizes="16x16"> -->
+    <!-- <link rel="apple-touch-icon" sizes="167x167" href="img/beer.png"> -->
+    <!-- <link rel="shortcut icon" href="img/beer_icon.png" type="image/x-icon"> -->
+    <link rel="shortcut icon" href="img/beer.png" type="image/x-icon">
+
 
     <!--==================== icons ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
@@ -79,11 +84,44 @@
                     </div>
                 </div>
             </nav>
-
-            <!-- ======================= Home ============================== -->
-
         </header>
+        <main>
+            <div class="header__contacts">
+                <h1 class="header__contacts__text">Contscts</h1>
+            </div>
+            <form action="#" class="form-container">
+                <div class="main__contacts">
+                    <div class="main__contacts-box">
+                        <img src="img/phone.svg" alt="Contact phone">
+                        <h3>PHONE</h3>
+                        <p>+1 (234) 567 89 00</p>
+                    </div>
+                    <div class="main__contacts-box">
+                        <img src="img/mail.svg" alt="Our email">
+                        <h3>EMAIL</h3>
+                        <p>beerboutique@email.com</p>
+                    </div>
+                    <div class="main__contacts-box">
+                        <img src="img/hours.svg" alt="Working hours">
+                        <h3>WORKING HOURS</h3>
+                        <p>4 PM — 2 AM</p>
+                    </div>
+                </div>
+                <div class="main__form">
+                    <div class="main__form-map"></div>
+                    <div class="main__form-inputs">
+                        <input type="text" />
+                        <input type="number" />
+                        <input type="number" />
+                        <input type="date" />
+                        <input type="submit">
+                    </div>
+                </div>
+            </form>
+        </main>
     </div>
+
+
 </body>
 
 </html>
