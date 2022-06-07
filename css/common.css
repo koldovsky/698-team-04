@@ -4,6 +4,27 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Teko&display=swap');
 
 
+/*==================== VARIABLES CSS ====================*/
+:root {
+    --header-height: 123px;
+
+    /*========== Colors ==========*/
+    --header-color: #111;
+    --h1-text-color: #111;
+    --h2-text-color: #fff;
+    --bacis-text-color: #fff;
+    --second-text-color: #ccc;
+    --button-text-color: #111;
+    --button-color: #ffc123;
+    /*========== Font and typography ==========*/
+    --body-font: 'Open Sans', sans-serif;
+    --subtitle-font: 'Shadows Into Light', sans-serif;
+    --title-font: 'Teko', sans-serif;
+    /*========== Font weight ==========*/
+    --font-light: 400;
+    --font-medium: 500;
+}
+
 *,
 *::before,
 *::after {
@@ -56,72 +77,20 @@ body {
     flex-direction: column;
 }
 
-
-/*  -----------------  Menu ----------------- */
-/*  -------- Diana Pinchuk | start -----------*/
-.menu-section, .blog-section  {
-    color: #fff;
-}
-
-.menu-section {
-    padding: 120px 0 65px;
-}
-
-.section-header {
+.container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*  ----------------- main ----------------- */
+.main {
+    flex: 1 1 auto;
 }
 
-.section-header__title {
-    font-family: "Shadows Into Light", undefined;
-    font-size: 28px;
-    font-weight: 400;
-    color: rgb(255,193,35);
+/*  ----------------- footer  ----------------- */
+.footer {
+    background-color: #111111;
+    height: 200px;
 }
-
-.section-header__text{
-    font-family: "Teko";
-    font-size: 62px;
-    font-weight: 400;
-}
-
-.section-header__description {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 19px;
-    font-weight: 500;
-    color: rgb(204, 204, 204);
-}
-
-/*  -------- Diana Pinchuk | end -----------*/
-/*  -----------------  friday-deal ----------------- */
-
-
-
-
-/*  -----------------  botteled ----------------- */
-
-
-
-
-/*  -----------------  top-choise ----------------- */
-
-
-
-
-/*  -----------------  story ----------------- */
-
-
-
-
-/*  -----------------  testimonials ----------------- */
-
-
-
-
-
-/*  -----------------  blog ----------------- */
-
-
-
-
-/*  -----------------  brands ----------------- */

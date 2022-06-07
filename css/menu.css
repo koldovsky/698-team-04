@@ -1,0 +1,36 @@
+/*  -----------------  Menu ----------------- */
+/*  -------- Diana Pinchuk | start -----------*/
+.menu-section, .blog-section  {
+    color: #fff;
+}
+
+.menu-section {
+    padding: 120px 0 65px;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-header__title {
+    font-family: "Shadows Into Light", undefined;
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(255,193,35);
+}
+
+.section-header__text{
+    font-family: "Teko";
+    font-size: 62px;
+    font-weight: 400;
+}
+
+.section-header__description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: rgb(204, 204, 204);
+}
+
+/*  -------- Diana Pinchuk | end -----------*/

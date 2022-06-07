@@ -3,14 +3,6 @@
     position: relative;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .nav__logo-img {
     width: 182px;
 }
@@ -158,17 +150,6 @@
     display: block;
 }
 
-/*  ----------------- main ----------------- */
-.main {
-    flex: 1 1 auto;
-}
-
-/*  ----------------- footer  ----------------- */
-.footer {
-    background-color: #111111;
-    height: 200px;
-}
-
 
 /* ------------- Home ----------------- */
 .header__home {
@@ -210,7 +191,7 @@
 }
 .home__subtitle {
     padding-top: 50px;
-    font-family: 'Shadows Into Light';
+    font-family: 'Shadows Into Light', sans-serif;
     font-size: 14px;
 }
 .home__title {
