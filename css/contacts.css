@@ -1,9 +1,6 @@
-*{
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-}
+@import url(common.css);
+@import url(header.css);
+
 .header__contacts{
     width: 100%;
     /* background-color: red; */
