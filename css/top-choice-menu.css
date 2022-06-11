@@ -2,7 +2,10 @@
 @import url(header.css);
 @import url(footer.css);
 
-.menu-page {
+
+.menu-page__bar,
+.menu-page__food {
+    margin-bottom: 75px;
     color: var(--bacis-text-color);
 }
 
@@ -18,7 +21,8 @@
     margin-bottom: 120px;
 }
 
-.menu__header__text {
+.menu__header__text,
+.food-menu__header {
     font-family: var(--title-font);
     font-size: 53px;
     text-transform: uppercase;
@@ -57,10 +61,61 @@
     justify-content: center;
 }
 
-.bar-menu__header {
-    margin-top: 20px;
+.bar__menu-list,
+.food__menu-list {
+    display: flex;
+    margin: auto;
+}
+
+
+.bar-menu__header,
+.food-menu__header {
+    margin: 20px 0px 30px 0px;
     font-size: 38px;
     text-transform: uppercase;
     font-family: "Teko", sans-serif;
     font-weight: 400;
+    color: var(--button-color);
+}
+
+.bar-menu__item,
+.food-menu__item {
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 38px;
+    text-transform: uppercase;
+    font-family: "Teko", sans-serif;
+    font-weight: 400;
+}
+
+.menu-line {
+    color: var(--second-text-color);
+    opacity: 25%;
+}
+
+.price {
+    font-size: 38px;
+    text-transform: uppercase;
+    font-family: "Teko", sans-serif;
+    font-weight: 400;
+    color: var(--button-color);
+}
+
+.description {
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: Open Sans,sans-serif;
+    font-weight: 400;
+    color: var(--second-text-color);
+}
+
+.menu__img {
+    width: 80%;
+    margin: auto;
+}
+
+.menu-page__food {
+    margin-top: 75px;
 }
