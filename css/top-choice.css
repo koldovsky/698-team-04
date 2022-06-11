@@ -56,14 +56,13 @@
 }
 
 .menu__list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .menu__list-container{
-    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 50px 30px;
 }
 
 .menu__title-container {
