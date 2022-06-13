@@ -114,6 +114,11 @@
     justify-content: center;
 }
 
+.map {
+    height: 100%;
+    filter: grayscale(100%) invert(92%) contrast(83%);
+}
+
 @media (max-width:800px) {
     .main__form {
         width: 100%;
@@ -135,6 +140,12 @@
         height: 570px;
         margin: 15px auto;
         justify-content: center;
+    }
+
+    .map {
+        margin: 30px;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
     }
 }
 
