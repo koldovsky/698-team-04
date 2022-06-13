@@ -18,6 +18,7 @@ div.friday {
 
 .friday-title {
     font-family: 'Teco';
+    font-size: inherit;
     font-size: 95px;
     text-align: center;
     margin-top: 20px;
@@ -45,4 +46,74 @@ div.friday {
     margin-top: 20%;
     margin-left: 42%;
     text-decoration: none;
+}
+
+.friday__offer {
+    background: url(../img/friday-background.png) no-repeat;
+    background-size: 100%; 
+    height: 700px;
+}
+
+img.relax {
+    width: 400px;
+    height: 550px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.friday-menu {
+    background-color: rgba(17,17,17,0.76);
+    width: 650px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+.friday-offer-subtitle {
+    color: orange;
+    font-family: 'Shadows Intro Light' inherit;
+    font-style:  inherit;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.friday-offer-title {
+    color: white;
+    font-family: 'Teco';
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.friday__offer-menu {
+    display: flex;
+}
+.friday-menu-item {
+    color: white;
+}
+
+.friday-icon {
+    float: left;
+    width: 70px;
+    min-height: 70px;
+    border-radius: 100px;
+    display: flex;
+    margin: 7px 10px 7px 7px;
+
+}
+.menu-list-title {
+    font-family: 'Teco';
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 2px;
+
+}
+.menu-description {
+    font-family: 'Open Sans';
+    font-size: 17px;
+    color: rgb(209,209,209);
+
+}
+.friday-line {
+    color: hsla(0, 3%, 66%, 0.377);
 }
