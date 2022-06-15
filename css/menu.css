@@ -5,32 +5,167 @@
 }
 
 .menu-section {
-    padding: 120px 0 65px;
-}
-
-.section-header {
+    margin: 120px 40px 65px;
+    height: 564.050px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content:space-between;
+    align-content: center;
+}
+
+
+@media (min-width: 992px) {
+    .menu-section__cards {
+        height: 339.925px;
+        max-width: 1200px;
+        min-width: 912px; 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;   
+        align-self: center;
+        column-gap: 30px;
+        justify-content: center;
+    }
+
+    .menu-section__big-card {
+        width: 283.987px;;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: auto;
+        grid-template-areas: "title" "text" "button";
+        text-align: center;
+        padding: 15px;
+    }
+
+
+    .menu-section__big-card--bar {
+        background-image: url(../img/menu-section__bar-photo.png);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .menu-section__big-card--food {
+        background-image: url(../img/menu-section__food-photo.png);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .menu-section__big-card--happy-hour {
+        background-image: url(../img/menu-section__happy-hour-photo.png);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .menu-section__big-card-title {
+        grid-area: "title";
+        font-family: Teko, sans-serif;
+        font-size: 54px;
+        font-weight: 400;
+        align-self:baseline;
+        line-height: 59.4px;
+    }
+
+    .menu-section__big-card-text {
+        display: none;
+        grid-area: "text";
+        font-family: "Open Sans", sans-serif;
+        font-size: 17px;
+        line-height: 25.5px;
+        font-weight: 400;
+        margin-block-start: 25px;
+        text-align: center;
+        animation: fade .5s linear forwards;  
+    }
+
+    @keyframes fade {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      .menu-section__big-card:hover{
+        background: rgba(0, 0, 0, 0.5);
+      }
+
+      .menu-section__big-card:hover .menu-section__big-card-text{
+        display: contents;
+      }
+
+    .menu-section__big-card-button {
+        display: none;
+        grid-area: "button";
+        line-height: 13.2px;
+        font-weight: 400;
+        font-size: 12px;
+        font-family: "Open Sans", sans-serif;
+        color: rgb(255, 201, 98) ;
+        letter-spacing: 0.6px;
+        opacity: 1;
+        text-decoration-color: rgb(255, 201, 98);
+        text-decoration-style: solid;
+        animation: fade .5s linear forwards;
+      
+        
+    }
+
+    .menu-section__big-card:hover .menu-section__big-card-button{
+        display: contents;
+      }
+}
+
+@media (min-width: 768px) {
+
+}
+
+
+
+
+
+.section-header {
+    display: grid;
+    width: 100%;
+    height: 174.125px;
+    grid-template-rows: 39.2px 88.8px 1fr;
+    grid-template-areas: "title" , "text" , "description";
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 30px;
 }
 
 .section-header__title {
+    grid-area: "title";
     font-family: "Shadows Into Light", undefined;
     font-size: 28px;
     font-weight: 400;
     color: rgb(255,193,35);
+    line-height: 39.2px;
+    display: flex;
+
 }
 
 .section-header__text{
+    grid-area: "text";
     font-family: "Teko";
     font-size: 62px;
     font-weight: 400;
+
 }
 
 .section-header__description {
-    font-family: 'Open Sans', sans-serif;
+    grid-area: "description";
+    font-family: "Open Sans",sans-serif;
     font-size: 19px;
     font-weight: 500;
     color: rgb(204, 204, 204);
+    line-height: 27.93px;
 }
+
+
+
+
 
 /*  -------- Diana Pinchuk | end -----------*/
