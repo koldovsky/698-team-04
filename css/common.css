@@ -105,9 +105,3 @@ body {
 .main {
     flex: 1 1 auto;
 }
-
-/*  ----------------- footer  ----------------- */
-.footer {
-    background-color: #111111;
-    height: 200px;
-}

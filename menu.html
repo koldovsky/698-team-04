@@ -2,342 +2,567 @@
 
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Page | Beer Pub</title>
+    <link rel="shortcut icon" href="img/beer.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/page-menu.css" />
+    <!--==================== icons ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menu Page | Beer Pub</title>
-  <link rel="shortcut icon" href="img/beer.png" type="image/x-icon">
-  <link rel="stylesheet" href="css/page-menu.css">
-   <!--==================== icons ====================-->
-   <link
-   rel="stylesheet"
-   href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
- />
- <link
-   rel="stylesheet"
-   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
- />
-</head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="header__nav">
+          <div class="container">
+            <div class="nav__menu">
+              <a href="index.html"
+                ><img src="img/logo1.svg" alt="logo" class="nav__logo-img"
+              /></a>
 
-<body>
-  <div class="wrapper">
-    <header class="header">
-      <nav class="header__nav">
-        <div class="container">
-          <div class="nav__menu">
-            <a href="index.html"><img src="img/logo1.svg" alt="logo" class="nav__logo-img" /></a>
-
-            <div class="nav__list-wrapper">
-              <ul class="nav__list grid">
-                <li class="nav__item">
-                  <a href="about.html" class="nav__link">About us</a>
-                </li>
-                <li class="nav__item">
-                  <a href="menu.html" class="nav__link">Menu</a>
-                </li>
-                <li class="nav__item">
-                  <a href="index.html#friday-deal" class="nav__link">Friday deal</a>
-                </li>
-                <li class="nav__item">
-                  <a href="index.html#blog" class="nav__link">Blog</a>
-                </li>
-                <li class="nav__item">
-                  <a href="contacts.html" class="nav__link">Contacts</a>
-                </li>
-              </ul>
-
-              <div class="nav__socials">
-                <ul class="nav__socials-list">
-                  <li class="nav__socials-item">
-                    <a href="https://facebook.com/" target="_blank" class="nav__social-icon">
-                      <i class="uil uil-facebook-f"></i>
-                    </a>
+              <div class="nav__list-wrapper">
+                <ul class="nav__list grid">
+                  <li class="nav__item">
+                    <a href="about.html" class="nav__link">About us</a>
                   </li>
-                  <li class="nav__socials-item">
-                    <a target="_blank" href="https://instagram.com/" class="nav__social-icon">
-                      <i class="uil uil-instagram"></i>
-                    </a>
+                  <li class="nav__item">
+                    <a href="menu.html" class="nav__link">Menu</a>
                   </li>
-                  <li class="nav__socials-item">
-                    <a href="https://tripadvisor.com/" target="_blank" class="nav__social-icon">
-                      <i class="fa fa-tripadvisor" aria-hidden="true"></i>
-                    </a>
+                  <li class="nav__item">
+                    <a href="index.html#friday-deal" class="nav__link"
+                      >Friday deal</a
+                    >
+                  </li>
+                  <li class="nav__item">
+                    <a href="index.html#blog" class="nav__link">Blog</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="contacts.html" class="nav__link">Contacts</a>
                   </li>
                 </ul>
+
+                <div class="nav__socials">
+                  <ul class="nav__socials-list">
+                    <li class="nav__socials-item">
+                      <a
+                        href="https://facebook.com/"
+                        target="_blank"
+                        class="nav__social-icon"
+                      >
+                        <i class="uil uil-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li class="nav__socials-item">
+                      <a
+                        target="_blank"
+                        href="https://instagram.com/"
+                        class="nav__social-icon"
+                      >
+                        <i class="uil uil-instagram"></i>
+                      </a>
+                    </li>
+                    <li class="nav__socials-item">
+                      <a
+                        href="https://tripadvisor.com/"
+                        target="_blank"
+                        class="nav__social-icon"
+                      >
+                        <i class="fa fa-tripadvisor" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav__button">
+              <i class="uil uil-bars icon-menu show-menu"></i>
+              <i class="uil uil-times close-icon-menu"></i>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main class="main">
+        <section class="menu-page">
+          <div class="menu__header">
+            <h1 class="menu__header__text">Menu</h1>
+          </div>
+          <div class="menu-page__bar">
+            <h2 class="bar__title">Bar</h2>
+            <h3 class="bar__menu">BAR MENU</h3>
+            <p class="bar__offer">
+              We offer bottled beers by local producers, our own draft
+            </p>
+            <p class="bar__offer">beer, and a variety of cocktails.</p>
+            <div class="bar__menu-list">
+              <div class="bar__bottled-beer">
+                <h3 class="bar-menu__header">BOTTLED BEER</h3>
+                <div class="bar-menu__item">
+                  <h4 class="title">
+                    INDIAN PALE ALE<span class="price"
+                      ><span class="menu-line"> ______________ </span>$4</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Strong and bitter beer with intense aroma
+                  </p>
+                </div>
+                <div class="bar-menu__item">
+                  <h4 class="title">
+                    LAGER BEER<span class="price"
+                      ><span class="menu-line"> ______________ </span
+                      >$3.50</span
+                    >
+                  </h4>
+                  <p class="description">
+                    This beer is not bitter at all and features wheat aroma
+                  </p>
+                </div>
+                <div class="bar-menu__item">
+                  <h4 class="title">
+                    BITTER<span class="price"
+                      ><span class="menu-line"> ______________ </span>$4</span
+                    >
+                  </h4>
+                  <p class="description">
+                    "England's favorite beer", dark and intense
+                  </p>
+                </div>
+                <div class="bar-menu__item">
+                  <h4 class="title">
+                    STOUT<span class="price"
+                      ><span class="menu-line"> ______________ </span>$5</span
+                    >
+                  </h4>
+                  <p class="description">
+                    This frothy beer has a medium strength and a pleasant aroma
+                  </p>
+                </div>
+                <div class="bar-menu__item">
+                  <h4 class="title">
+                    CARAMEL ALE<span class="price"
+                      ><span class="menu-line"> ______________ </span
+                      >$5.50</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Caramel malt sweetness accompanied by spicy and citrusy hops
+                  </p>
+                </div>
+              </div>
+              <div class="bar__beer-on-tap">
+                <h3 class="bar-menu__header">BEER ON TAP</h3>
+                <div class="bar-menu__item">
+                  <h4 class="title">
+                    BLUE STYLE<span class="price"
+                      ><span class="menu-line"> ______________ </span>$5</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Brewed with oats and spiced with orange peel
+                  </p>
+                </div>
+                <div class="bar-menu__item">
+                  <h4 class="title">
+                    BOUTIQUE IPA<span class="price"
+                      ><span class="menu-line"> ______________ </span>$6</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Our best-selling draft beer with bitter taste
+                  </p>
+                </div>
+                <div class="bar-menu__item">
+                  <h4 class="title">
+                    ABSOLUTE PORTER<span class="price"
+                      ><span class="menu-line"> ______________ </span>$7</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Chocolate peanut butter porter with rich taste
+                  </p>
+                </div>
+                <div class="bar-menu__item">
+                  <h4 class="title">
+                    BELGIAN DREAM<span class="price"
+                      ><span class="menu-line"> ______________ </span>$8</span
+                    >
+                  </h4>
+                  <p class="description">
+                    A traditional Belgian-style wheat ale with whispers of
+                    orange
+                  </p>
+                </div>
+                <div class="bar-menu__item">
+                  <h4 class="title">
+                    BEER BOUTIQUE LAGER<span class="price"
+                      ><span class="menu-line"> ______________ </span>$9</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Crisp, clean and slightly dry with some residual sweetness
+                  </p>
+                </div>
+              </div>
+              <div class="bar__cocktails">
+                <h3 class="bar-menu__header">COCKTAILS</h3>
+                <div class="bar-menu__item">
+                  <h4 class="title">
+                    MONKEY SOUR<span class="price"
+                      ><span class="menu-line"> ______________ </span>$10</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Monkey Shoulder whisky, strawberry, lemon, sugar
+                  </p>
+                </div>
+                <div class="bar-menu__item">
+                  <h4 class="title">
+                    OLD FASHIONED<span class="price"
+                      ><span class="menu-line"> ______________ </span>$11</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Buffalo Trace bourbon, demerara, Angostura Bitters
+                  </p>
+                </div>
+                <div class="bar-menu__item">
+                  <h4 class="title">
+                    PIÑA COLADA<span class="price"
+                      ><span class="menu-line"> ______________ </span>$10</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Havana Club 3 Year Old rum, coconut, pineapple
+                  </p>
+                </div>
+                <div class="bar-menu__item">
+                  <h4 class="title">
+                    MOJITO<span class="price"
+                      ><span class="menu-line"> ______________ </span>$11</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Havana Club 3 Year Old rum, lime, mint, soda
+                  </p>
+                </div>
+                <div class="bar-menu__item">
+                  <h4 class="title">
+                    BRAMBLE<span class="price"
+                      ><span class="menu-line"> ______________ </span>$13</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Tanqueray London Dry gin, crème de mure, lemon
+                  </p>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="nav__button">
-            <i class="uil uil-bars icon-menu show-menu"></i>
-            <i class="uil uil-times close-icon-menu"></i>
-          </div>
-        </div>
-      </nav>
-    </header>
-  
-  
-  section class="menu-page">
-    <div class="menu__header">
-      <h1 class="menu__header__text">Menu</h1>
-    </div>
-    <div class="menu-page__bar">
-      <h2 class="bar__title">Bar</h2>
-      <h3 class="bar__menu">BAR MENU</h3>
-      <p class="bar__offer">We offer bottled beers by local producers, our own draft</p><p class="bar__offer"> beer, and a variety of
-        cocktails.</p>
-      <div class="bar__menu-list">
-        <div class="bar__bottled-beer">
-          <h3 class="bar-menu__header">BOTTLED BEER</h3>
-          <div class="bar-menu__item">
-            <h4 class="title">INDIAN PALE ALE<span class="price"><span class="menu-line"> ______________ </span>$4</span></h4>
-            <p class="description">Strong and bitter beer with intense aroma</p>
-          </div>
-          <div class="bar-menu__item">
-            <h4 class="title">LAGER BEER<span class="price"><span class="menu-line"> ______________ </span>$3.50</span></h4>
-            <p class="description">This beer is not bitter at all and features wheat aroma</p>
-          </div>
-          <div class="bar-menu__item">
-            <h4 class="title">BITTER<span class="price"><span class="menu-line"> ______________ </span>$4</span></h4>
-            <p class="description">"England's favorite beer", dark and intense</p>
-          </div>
-          <div class="bar-menu__item">
-            <h4 class="title">STOUT<span class="price"><span class="menu-line"> ______________ </span>$5</span></h4>
-            <p class="description">This frothy beer has a medium strength and a pleasant aroma</p>
-          </div>
-          <div class="bar-menu__item">
-            <h4 class="title">CARAMEL ALE<span class="price"><span class="menu-line"> ______________ </span>$5.50</span></h4>
-            <p class="description">Caramel malt sweetness accompanied by spicy and citrusy hops</p>
-          </div>
-        </div>
-        <div class="bar__beer-on-tap">
-          <h3 class="bar-menu__header">BEER ON TAP</h3>
-          <div class="bar-menu__item">
-            <h4 class="title">BLUE STYLE<span class="price"><span class="menu-line"> ______________ </span>$5</span></h4>
-            <p class="description">Brewed with oats and spiced with orange peel</p>
-          </div>
-          <div class="bar-menu__item">
-            <h4 class="title">BOUTIQUE IPA<span class="price"><span class="menu-line"> ______________ </span>$6</span></h4>
-            <p class="description">Our best-selling draft beer with bitter taste</p>
-          </div>
-          <div class="bar-menu__item">
-            <h4 class="title">ABSOLUTE PORTER<span class="price"><span class="menu-line"> ______________ </span>$7</span></h4>
-            <p class="description">Chocolate peanut butter porter with rich taste</p>
-          </div>
-          <div class="bar-menu__item">
-            <h4 class="title">BELGIAN DREAM<span class="price"><span class="menu-line"> ______________ </span>$8</span></h4>
-            <p class="description">A traditional Belgian-style wheat ale with whispers of orange</p>
-          </div>
-          <div class="bar-menu__item">
-            <h4 class="title">BEER BOUTIQUE LAGER<span class="price"><span class="menu-line"> ______________ </span>$9</span></h4>
-            <p class="description">Crisp, clean and slightly dry with some residual sweetness</p>
-          </div>
-        </div>
-        <div class="bar__cocktails">
-          <h3 class="bar-menu__header">COCKTAILS</h3>
-          <div class="bar-menu__item">
-            <h4 class="title">MONKEY SOUR<span class="price"><span class="menu-line"> ______________ </span>$10</span></h4>
-            <p class="description">Monkey Shoulder whisky, strawberry, lemon, sugar</p>
-          </div>
-          <div class="bar-menu__item">
-            <h4 class="title">OLD FASHIONED<span class="price"><span class="menu-line"> ______________ </span>$11</span></h4>
-            <p class="description">Buffalo Trace bourbon, demerara, Angostura Bitters</p>
-          </div>
-          <div class="bar-menu__item">
-            <h4 class="title">PIÑA COLADA<span class="price"><span class="menu-line"> ______________ </span>$10</span></h4>
-            <p class="description">Havana Club 3 Year Old rum, coconut, pineapple</p>
-          </div>
-          <div class="bar-menu__item">
-            <h4 class="title">MOJITO<span class="price"><span class="menu-line"> ______________ </span>$11</span></h4>
-            <p class="description">Havana Club 3 Year Old rum, lime, mint, soda</p>
-          </div>
-          <div class="bar-menu__item">
-            <h4 class="title">BRAMBLE<span class="price"><span class="menu-line"> ______________ </span>$13</span></h4>
-            <p class="description">Tanqueray London Dry gin, crème de mure, lemon</p>
-          </div>
-        </div>
-      </div>
-    </div>
+          <img
+            class="menu__img"
+            src="img/menu-page.png"
+            alt="Glasses of bear"
+          />
 
-    <img class="menu__img" src="img/menu-page.png" alt="Glasses of bear">
+          <div class="menu-page__food">
+            <h2 class="food__title">Food</h2>
+            <h3 class="food__menu">FOOD MENU</h3>
+            <p class="food__offer">
+              Explore our snacks, burgers, and main dishes.
+            </p>
+            <div class="food__menu-list">
+              <div class="food__snacks">
+                <h3 class="food-menu__header">SNACKS</h3>
+                <div class="food-menu__item">
+                  <h4 class="title">
+                    SPICY NACHOS<span class="price"
+                      ><span class="menu-line"> ______________ </span>$15</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Cheddar cheese, jalapenos, queso fresco, sour cream, salsa
+                  </p>
+                </div>
+                <div class="food-menu__item">
+                  <h4 class="title">
+                    FISH & CHIPS<span class="price"
+                      ><span class="menu-line"> ______________ </span>$12</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Ale battered cod, coleslaw, French fries, and tartar sauce
+                  </p>
+                </div>
+                <div class="food-menu__item">
+                  <h4 class="title">
+                    FRIED CALAMARY<span class="price"
+                      ><span class="menu-line"> ______________ </span>$12</span
+                    >
+                  </h4>
+                  <p class="description">
+                    "Fried calamari served with spicy tartar sauce and dill
+                    aioli
+                  </p>
+                </div>
+                <div class="food-menu__item">
+                  <h4 class="title">
+                    CHICKEN WRAP<span class="price"
+                      ><span class="menu-line"> ______________ </span>$18</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Grilled chicken, bacon, tomato, cucumber, avocado, village
+                    sauce
+                  </p>
+                </div>
+                <div class="food-menu__item">
+                  <h4 class="title">
+                    MAC & CHEESE BITES<span class="price"
+                      ><span class="menu-line"> ______________ </span>$10</span
+                    >
+                  </h4>
+                  <p class="description">With maple bacon and cheese sauce</p>
+                </div>
+              </div>
+              <div class="food__burgers">
+                <h3 class="food-menu__header">BURGERS</h3>
+                <div class="food-menu__item">
+                  <h4 class="title">
+                    CLASSIC BURGER<span class="price"
+                      ><span class="menu-line"> ______________ </span>$14</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Beef, tomato, pickle, lettuce, cucumber, cheddar cheese,
+                    bacon
+                  </p>
+                </div>
+                <div class="food-menu__item">
+                  <h4 class="title">
+                    BEEF KING<span class="price"
+                      ><span class="menu-line"> ______________ </span>$18</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Beef brisket, Swiss cheese, caramelised onions
+                  </p>
+                </div>
+                <div class="food-menu__item">
+                  <h4 class="title">
+                    DOUBLE CHEESEBURGER<span class="price"
+                      ><span class="menu-line"> ______________ </span>$22</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Double beef patties with cheese, tomato, topped with
+                    mozzarella
+                  </p>
+                </div>
+                <div class="food-menu__item">
+                  <h4 class="title">
+                    CHICKEN BURGER<span class="price"
+                      ><span class="menu-line"> ______________ </span>$15</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Chicken breast, soaked with hot sauce & blue cheese slaw
+                  </p>
+                </div>
+                <div class="food-menu__item">
+                  <h4 class="title">
+                    BOUTIQUE BURGER<span class="price"
+                      ><span class="menu-line"> ______________ </span>$19</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Maple bacon, tomato, red onions topped off with a fried egg
+                  </p>
+                </div>
+              </div>
+              <div class="food__meat">
+                <h3 class="food-menu__header">MEAT</h3>
+                <div class="food-menu__item">
+                  <h4 class="title">
+                    SEZAME CHICKEN STRIPS<span class="price"
+                      ><span class="menu-line"> ______________ </span>$13</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Chicken breasts in Jack Daniel's® glaze with toasted sesame
+                    seeds
+                  </p>
+                </div>
+                <div class="food-menu__item">
+                  <h4 class="title">
+                    HOT WINGS<span class="price"
+                      ><span class="menu-line"> ______________ </span>$15</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Served with barbecue sauce and coleslaw
+                  </p>
+                </div>
+                <div class="food-menu__item">
+                  <h4 class="title">
+                    LAMB GYRD<span class="price"
+                      ><span class="menu-line"> ______________ </span>$20</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Lamb, tzatziki sauce, tomato, cucumber & lettuce in pita
+                    bread
+                  </p>
+                </div>
+                <div class="food-menu__item">
+                  <h4 class="title">
+                    LAMB CHOPS<span class="price"
+                      ><span class="menu-line"> ______________ </span>$22</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Marinated herb roasted rack of lamb chops with balsamic
+                    sauce
+                  </p>
+                </div>
+                <div class="food-menu__item">
+                  <h4 class="title">
+                    PAN ROASTED PORK CHOP<span class="price"
+                      ><span class="menu-line"> ______________ </span>$23</span
+                    >
+                  </h4>
+                  <p class="description">
+                    Served in a bourbon & honey glaze with berry sauce
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!------------- Contacts -------------->
+      <footer class="footer">
+        <div class="footer__container container">
+          <div class="footer__description">
+            <a href="index.html">
+              <img src="img/logo1.svg" alt="logo" class="nav__logo-img" />
+            </a>
+            <p class="footer__description-text">
+              Welcome to your favorite pub with draft and bottled beer from the
+              best local and world-famous producers.
+            </p>
 
-    <div class="menu-page__food">
-      <h2 class="food__title">Food</h2>
-      <h3 class="food__menu">FOOD MENU</h3>
-      <p class="food__offer">Explore our snacks, burgers, and main dishes.</p>
-      <div class="food__menu-list">
-        <div class="food__snacks">
-          <h3 class="food-menu__header">SNACKS</h3>
-          <div class="food-menu__item">
-            <h4 class="title">SPICY NACHOS<span class="price"><span class="menu-line"> ______________ </span>$15</span></h4>
-            <p class="description">Cheddar cheese, jalapenos, queso fresco, sour cream, salsa</p>
+            <div class="nav__socials">
+              <ul class="nav__socials-list">
+                <li class="nav__socials-item">
+                  <a
+                    target="_blank"
+                    href="https://instagram.com/"
+                    class="nav__social-icon"
+                  >
+                    <i class="uil uil-instagram"></i>
+                  </a>
+                </li>
+                <li class="nav__socials-item">
+                  <a
+                    href="https://twitter.com/"
+                    target="_blank"
+                    class="nav__social-icon"
+                  >
+                    <i class="uil uil-twitter"></i>
+                  </a>
+                </li>
+                <li class="nav__socials-item">
+                  <a
+                    href="https://www.youtube.com/"
+                    target="_blank"
+                    class="nav__social-icon"
+                  >
+                    <i class="uil uil-youtube"></i>
+                  </a>
+                </li>
+                <li class="nav__socials-item">
+                  <a
+                    href="https://tripadvisor.com/"
+                    target="_blank"
+                    class="nav__social-icon"
+                  >
+                    <i class="fa fa-tripadvisor" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="food-menu__item">
-            <h4 class="title">FISH & CHIPS<span class="price"><span class="menu-line"> ______________ </span>$12</span></h4>
-            <p class="description">Ale battered cod, coleslaw, French fries, and tartar sauce</p>
+          <div class="footer__navigation navigation">
+            <h3 class="footer__title title">Navigation</h3>
+            <ul class="navigation__list">
+              <li class="navigation__list-item">
+                <a href="about.html" class="navigation__link">About us</a>
+              </li>
+              <li class="navigation__list-item">
+                <a href="menu.html" class="navigation__link">Menu</a>
+              </li>
+              <li class="navigation__list-item">
+                <a href="index.html#testimonials" class="navigation__link"
+                  >Testimonials</a
+                >
+              </li>
+              <li class="navigation__list-item">
+                <a href="contacts.html" class="navigation__link">Contacts</a>
+              </li>
+            </ul>
           </div>
-          <div class="food-menu__item">
-            <h4 class="title">FRIED CALAMARY<span class="price"><span class="menu-line"> ______________ </span>$12</span></h4>
-            <p class="description">"Fried calamari served with spicy tartar sauce and dill aioli</p>
+          <div class="footer__contacts">
+            <h3 class="footer__title title">Contacts</h3>
+            <ul class="contacts__list">
+              <li class="contacts__list-item">
+                <i class="uil uil-phone footer__icon"></i>
+                <a href="tel:+12345678900">+1 (234) 567 89 00</a>
+              </li>
+              <li class="contacts__list-item">
+                <i class="uil uil-envelope footer__icon"></i>
+                <a href="maito:beerboutique@email.com"
+                  >beerboutique@email.com</a
+                >
+              </li>
+              <li class="contacts__list-item">
+                <i class="uil uil-map-marker footer__icon"></i>
+                55 Irving Pl, New York, NY 10003
+              </li>
+              <li class="contacts__list-item">
+                <i class="uil uil-clock-five footer__icon"></i>
+                4 PM — 02 AM
+              </li>
+            </ul>
           </div>
-          <div class="food-menu__item">
-            <h4 class="title">CHICKEN WRAP<span class="price"><span class="menu-line"> ______________ </span>$18</span></h4>
-            <p class="description">Grilled chicken, bacon, tomato, cucumber, avocado, village sauce</p>
-          </div>
-          <div class="food-menu__item">
-            <h4 class="title">MAC & CHEESE BITES<span class="price"><span class="menu-line"> ______________ </span>$10</span></h4>
-            <p class="description">With maple bacon and cheese sauce</p>
+          <div class="footer__subscribe">
+            <h3 class="footer__title title">Subscribe</h3>
+            <form class="footer__form email">
+              <input type="text" class="email__input" placeholder="Email*" />
+              <button class="email__submit-button button">Subscribe</button>
+            </form>
           </div>
         </div>
-        <div class="food__burgers">
-          <h3 class="food-menu__header">BURGERS</h3>
-          <div class="food-menu__item">
-            <h4 class="title">CLASSIC BURGER<span class="price"><span class="menu-line"> ______________ </span>$14</span></h4>
-            <p class="description">Beef, tomato, pickle, lettuce, cucumber, cheddar cheese, bacon</p>
-          </div>
-          <div class="food-menu__item">
-            <h4 class="title">BEEF KING<span class="price"><span class="menu-line"> ______________ </span>$18</span></h4>
-            <p class="description">Beef brisket, Swiss cheese, caramelised onions</p>
-          </div>
-          <div class="food-menu__item">
-            <h4 class="title">DOUBLE CHEESEBURGER<span class="price"><span class="menu-line"> ______________ </span>$22</span></h4>
-            <p class="description">Double beef patties with cheese, tomato, topped with mozzarella </p>
-          </div>
-          <div class="food-menu__item">
-            <h4 class="title">CHICKEN BURGER<span class="price"><span class="menu-line"> ______________ </span>$15</span></h4>
-            <p class="description">Chicken breast, soaked with hot sauce & blue cheese slaw</p>
-          </div>
-          <div class="food-menu__item">
-            <h4 class="title">BOUTIQUE BURGER<span class="price"><span class="menu-line"> ______________ </span>$19</span></h4>
-            <p class="description">Maple bacon, tomato, red onions topped off with a fried egg</p>
+        <div class="footer__text">
+          <div class="footer__copyright container">
+            <span>© Created by Team 4</span>
+            <span>All rights Reserved</span>
           </div>
         </div>
-        <div class="food__meat">
-          <h3 class="food-menu__header">MEAT</h3>
-          <div class="food-menu__item">
-            <h4 class="title">SEZAME CHICKEN STRIPS<span class="price"><span class="menu-line"> ______________ </span>$13</span></h4>
-            <p class="description">Chicken breasts in Jack Daniel's® glaze with toasted sesame seeds</p>
-          </div>
-          <div class="food-menu__item">
-            <h4 class="title">HOT WINGS<span class="price"><span class="menu-line"> ______________ </span>$15</span></h4>
-            <p class="description">Served with barbecue sauce and coleslaw</p>
-          </div>
-          <div class="food-menu__item">
-            <h4 class="title">LAMB GYRD<span class="price"><span class="menu-line"> ______________ </span>$20</span></h4>
-            <p class="description">Lamb, tzatziki sauce, tomato, cucumber & lettuce in pita bread</p>
-          </div>
-          <div class="food-menu__item">
-            <h4 class="title">LAMB CHOPS<span class="price"><span class="menu-line"> ______________ </span>$22</span></h4>
-            <p class="description">Marinated herb roasted rack of lamb chops with balsamic sauce</p>
-          </div>
-          <div class="food-menu__item">
-            <h4 class="title">PAN ROASTED PORK CHOP<span class="price"><span class="menu-line"> ______________ </span>$23</span></h4>
-            <p class="description">Served in a bourbon & honey glaze with berry sauce</p>
-          </div>
-        </div>
-      </div>
+      </footer>
     </div>
-  </section>
-
-  <!------------- Contacts -------------->
-  <footer class="footer">
-    <div class="footer__container container">
-      <div class="footer__description">
-        <a href="index.html">
-          <img src="img/logo1.svg" alt="logo" class="nav__logo-img" />
-        </a>
-        <p class="footer__description-text">Welcome to your favorite pub with draft and bottled beer from the best local and world-famous producers.</p>
-        
-        <div class="nav__socials">
-          <ul class="nav__socials-list">
-            <li class="nav__socials-item">
-              <a
-                target="_blank"
-                href="https://instagram.com/"
-                class="nav__social-icon"
-              >
-                <i class="uil uil-instagram"></i>
-              </a>
-            </li>
-            <li class="nav__socials-item">
-              <a
-                href="https://twitter.com/"
-                target="_blank"
-                class="nav__social-icon"
-              >
-                <i class="uil uil-twitter"></i>
-              </a>
-            </li>
-            <li class="nav__socials-item">
-              <a
-                href="https://www.youtube.com/"
-                target="_blank"
-                class="nav__social-icon"
-              >
-                <i class="uil uil-youtube"></i>
-              </a>
-            </li>
-            <li class="nav__socials-item">
-              <a
-                href="https://tripadvisor.com/"
-                target="_blank"
-                class="nav__social-icon"
-              >
-                <i class="fa fa-tripadvisor" aria-hidden="true"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer__navigation navigation">
-        <h3 class="footer__title title">Navigation</h3>
-        <ul class="navigation__list">
-          <li class="navigation__list-item"><a href="about.html" class="navigation__link">About us</a></li>
-          <li class="navigation__list-item"><a href="menu.html" class="navigation__link">Menu</a></li>
-          <li class="navigation__list-item"><a href="index.html#testimonials" class="navigation__link">Testimonials</a></li>
-          <li class="navigation__list-item"><a href="contacts.html" class="navigation__link">Contacts</a></li>
-        </ul>
-      </div>
-      <div class="footer__contacts">
-        <h3 class="footer__title title">Contacts</h3>
-        <ul class="contacts__list">
-          <li class="contacts__list-item">
-            <i class="uil uil-phone footer__icon"></i>
-            <a href="tel:+12345678900">+1 (234) 567 89 00</a>
-          </li>
-          <li class="contacts__list-item">
-            <i class="uil uil-envelope footer__icon"></i>
-            <a href="maito:beerboutique@email.com">beerboutique@email.com</a>
-          </li>
-          <li class="contacts__list-item">
-            <i class="uil uil-map-marker footer__icon"></i>
-            55 Irving Pl, New York, NY 10003
-          </li>
-          <li class="contacts__list-item">
-            <i class="uil uil-clock-five footer__icon"></i>
-            4 PM — 02 AM
-          </li>
-        </ul>
-      </div>
-      <div class="footer__subscribe">
-        <h3 class="footer__title title">Subscribe</h3>
-        <form class="footer__form email">
-          <input type="text" class="email__input" placeholder="Email*">
-          <button class="email__submit-button button">Subscribe</button>
-        </form>
-      </div>
-    </div>
-    <div class="footer__text">
-      <div class="footer__copyright container">
-        <span>© Created by Team 4</span>
-        <span>All rights Reserved</span>
-      </div>
-    </div>
-  </footer>
-</div>
-<script src="js/index.js"></script>
-</body>
-
+    <script src="js/index.js"></script>
+  </body>
 </html>
