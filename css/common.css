@@ -10,12 +10,20 @@
 
     /*========== Colors ==========*/
     --header-color: #111;
-    --h1-text-color: #111;
-    --h2-text-color: #fff;
+    --footer-background-color: #111;
+    --title-dark-text-color: #111;
+    --title-text-color: #fff;
     --bacis-text-color: #fff;
     --second-text-color: #ccc;
+    --footer-text-color: #9d9d9d;
+    --footer-color: #ffc123;
+
+    
     --button-text-color: #111;
     --button-color: #ffc123;
+    --button-hover-color: #e6ad1e;
+
+    --home-page-video: url('../img/video-background.jpg');
     /*========== Font and typography ==========*/
     --body-font: 'Open Sans', sans-serif;
     --subtitle-font: 'Shadows Into Light', sans-serif;
@@ -23,6 +31,7 @@
     /*========== Font weight ==========*/
     --font-light: 400;
     --font-medium: 500;
+    --font-bold: 700;
 }
 
 *,
@@ -64,11 +73,12 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
     background: url('../img/body-background.png');
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -83,6 +93,13 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+.title {
+    color: var(--title-text-color);
+    font-size: 38px;
+    text-transform: uppercase;
+    font-family: var(--title-font);
+    font-weight: var(--font-light);
 }
 /*  ----------------- main ----------------- */
 .main {

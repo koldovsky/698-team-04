@@ -1,0 +1,129 @@
+/*                 Top choice (Natasha)             */
+
+.topchoice-section {
+    padding-top: 150px;
+    color: var(--bacis-text-color);
+}
+
+.topchoice__title {
+    color: var(--button-color);
+    font-family: "Shadows Into Light", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.topchoice__offers {
+    text-transform: uppercase;
+    font-family: "Teko", sans-serif;
+    font-size: 62px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.topchoice_slogan {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--second-text-color);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu__photos {
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.menu-photos__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.menu__photos-img {
+    width: 250px;
+    height: 250px;
+}
+
+.menu__list {
+    margin-bottom: 70px;
+}
+
+.menu__list-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 50px 30px;
+}
+
+.menu__title-container {
+    display: inline;
+}
+
+.menu__title{
+    font-size: 38px;
+    text-transform: uppercase;
+    font-family: "Teko", sans-serif;
+    font-weight: 400;
+}
+
+.menu-line {
+    color: var(--second-text-color);
+    opacity: 25%;
+}
+
+.menu__price{
+    font-size: 38px;
+    text-transform: uppercase;
+    font-family: "Teko", sans-serif;
+    font-weight: 400;
+    color: var(--button-color);
+}
+
+.menu__description{
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: Open Sans,sans-serif;
+    font-weight: 400;
+    color: var(--second-text-color);
+}
+
+.topchoice-button {
+    display: block;
+    margin: 10px auto;
+    padding: 23px 10px;
+    width: 232px;
+    background-color: #ffc123;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #111111;
+    transition: background-color .2s ease-in;
+    margin-bottom: 100px;
+}
+
+.topchoice-button:hover {
+    background-color: #e6ad1e;
+}
+
+.topchoice-button__text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
