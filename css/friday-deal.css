@@ -1,8 +1,9 @@
-div.friday {
+.friday {
     color: var(--title-dark-text-color);
     display: flex;
     justify-content: center;
 }
+
 .friday__deal {
     background: url(../img/friday.png) 51.98% 52.76% / cover no-repeat;
     width: 1170px;
@@ -13,7 +14,7 @@ div.friday {
     font-family: 'Shadows Into Light';
     text-align: center;
     font-size: 28px;
-    padding-top: 70px;
+    padding-top: 80px;
 
 }
 
@@ -22,7 +23,6 @@ div.friday {
     font-stretch: condensed;
     font-size: 128px;
     text-align: center;
-    margin-top: 30px;
 }
 
 .friday-deal-sale {
@@ -31,30 +31,46 @@ div.friday {
     font-size: 19px;
     text-align: center;
     margin-bottom: 60px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .friday-button {
     font-family:  var(--body-font);
     font-size: 12px;
-    background-color: black;
+    background-color: var(--button-text-color);
     font-weight: bold;
-    color: white;
+    color:  var(--title-text-color);
     padding: 15px 32px;
     text-align: center;
-    font-size: 12px;
     justify-content: center;
-    margin-top: 20%;
-    margin-left: 42%;
+    margin-left: 43%;
     text-decoration: none;
 }
-
+@media (max-width: 450px) {
+    .friday__deal{
+        width: 360px;
+        height: 380px;
+    } 
+    .friday-subtitle {
+        font-size: 14px;
+    }
+    .friday-title {
+        font-size: 62px;
+    }
+    .friday-deal-sale {
+        font-size: 19px;
+    }
+    .friday-button {
+        margin-left: 30%;
+    }
+}
 .friday__offer {
-    background: #b2b2b2 url(../img/friday-background.png#greyscale);
+    background: #b2b2b2 url(../img/friday-background.png) no-repeat;
     background-blend-mode: luminosity;
     background-size: 100%; 
     height: 700px;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 
@@ -62,8 +78,8 @@ img.relax {
     width: 400px;
     height: 550px;
     padding-top: 100px;
-
 }
+
 .friday-menu {
     background-color: rgba(17,17,17,0.76);
     width: 650px;
@@ -73,7 +89,7 @@ img.relax {
 }
 
 .friday-offer-subtitle {
-    color: orange;
+    color: var(--footer-color);
     font-family: var(--subtitle-font);
     font-size: 28px;
     text-align: center;
@@ -81,7 +97,7 @@ img.relax {
 }
 
 .friday-offer-title {
-    color: white;
+    color: var(--title-text-color);
     font-family: var(--title-font);
     font-size: 58px;
     text-transform: uppercase; 
@@ -89,11 +105,13 @@ img.relax {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .friday__offer-menu {
     display: flex;
 }
+
 .friday-menu-item {
-    color: white;
+    color: var( --title-text-color);
     margin-bottom: 20px;
 }
 
@@ -104,21 +122,21 @@ img.relax {
     border-radius: 100px;
     display: flex;
     margin: 10px 13px 10px 10px;
-
 }
+
 .menu-list-title {
     font-family: 'Teco';
     font-size: 20px;
     margin-top: 0;
     margin-bottom: 10px;
-
 }
+
 .menu-description {
     font-family: 'Open Sans';
     font-size: 17px;
     color: rgb(209,209,209);
-
 }
+
 .friday-line {
     color: hsla(0, 3%, 66%, 0.377);
 }
