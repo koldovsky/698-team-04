@@ -197,3 +197,16 @@ input {
     display: block;
     margin: 30px;
 }
+
+.material-symbols-outlined {
+    color:var(--footer-text-color);
+    position: relative;
+    top: -74px;
+    margin-right: 62px;
+    right: -85%;
+    
+}
+.material-symbols-outlined:hover,
+.form-control:hover {
+    cursor: pointer;
+}
