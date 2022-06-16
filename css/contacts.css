@@ -199,14 +199,19 @@ input {
 }
 
 .material-symbols-outlined {
-    color:var(--footer-text-color);
+    color: var(--footer-text-color);
     position: relative;
     top: -74px;
     margin-right: 62px;
     right: -85%;
-    
+    height: 80px;
 }
+
 .material-symbols-outlined:hover,
 .form-control:hover {
     cursor: pointer;
+}
+
+.form-block-datepicker {
+    height: 60px;
 }
