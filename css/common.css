@@ -105,3 +105,88 @@ body {
 .main {
     flex: 1 1 auto;
 }
+
+/*  ------------------  section-header ---------------- */
+
+.section-header {
+    display: grid;
+    min-width: 272px;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "title" , "text" , "description";
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .section-header__title {
+    grid-area: "title";
+    font-family: "Shadows Into Light", undefined;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(255,193,35);
+    line-height: 19.6px;
+    display: flex;
+  
+  }
+  
+  .section-header__text{
+    grid-area: "text";
+    font-family: "Teko";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 20px;
+  
+  }
+  
+  .section-header__description {
+    grid-area: "description";
+    font-family: "Open Sans",sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: rgb(204, 204, 204);
+    line-height: 27.93px;
+    text-align: center;
+    margin-top: 25px;
+    letter-spacing: -0.3px;
+  }
+  
+  @media (min-width: 767px) {
+    .section-header__title {
+      font-size: 28px;
+      line-height: 39.2px;
+    }
+  
+    .section-header__text{
+      font-size: 62px;
+      line-height: 62px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .section-header__title {
+      font-size: 21px;
+      line-height: 29.4px;
+    }
+  
+    .section-header__text{
+      font-size: 51px;
+      line-height: 51px;
+    }
+  }
+  
+  @media (min-width: 991px) {
+    .section-header__title {
+      font-size: 28px;
+      line-height: 39.2px;
+    }
+  
+    .section-header__text{
+      font-size: 62px;
+      line-height: 62px;
+    }
+  }
+  
+
+
+  
+  
