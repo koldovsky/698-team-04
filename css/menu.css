@@ -1,6 +1,8 @@
 /*  -----------------  Menu ----------------- */
 /*  -------- Diana Pinchuk | start -----------*/
-.menu-section, .blog-section  {
+
+
+/*.menu-section {
     color: #fff;
 }
 
@@ -133,7 +135,8 @@
     grid-template-areas: "title" , "text" , "description";
     align-items: center;
     justify-items: center;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
+    /*
 }
 
 .section-header__title {
@@ -166,6 +169,6 @@
 
 
 
-
+*/
 
 /*  -------- Diana Pinchuk | end -----------*/

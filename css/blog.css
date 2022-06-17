@@ -1,0 +1,234 @@
+.section-header {
+  display: grid;
+  min-width: 272px;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "title" , "text" , "description";
+  align-items: center;
+  justify-items: center;
+}
+
+.section-header__title {
+  grid-area: "title";
+  font-family: "Shadows Into Light", undefined;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(255,193,35);
+  line-height: 19.6px;
+  display: flex;
+
+}
+
+.section-header__text{
+  grid-area: "text";
+  font-family: "Teko";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-top: 20px;
+
+}
+
+.section-header__description {
+  grid-area: "description";
+  font-family: "Open Sans",sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  color: rgb(204, 204, 204);
+  line-height: 27.93px;
+  text-align: center;
+  margin-top: 25px;
+  letter-spacing: -0.3px;
+}
+
+.blog-section {
+  margin: 60px 0 90px;
+  padding: 0 24px;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+ .blog-section__cards {
+  min-width: 272px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.blog-section__card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.blog-section__card-category {
+  color: rgb(255, 193, 35);
+  font-size: 14px;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 600;
+  line-height: 22.4px;
+  margin-top: 20px;
+}
+
+.blog-section__card-title {
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  font-family: 'Teko',sans-serif;
+  font-weight: 400;
+  line-height: 28.6px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.blog-section__card-text {
+  color: rgb(157, 157, 157);
+  font-size: 17px;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  line-height: 25.5px;
+  margin-top: 20px;
+  font-stretch: 100%;
+
+}
+
+.blog-section__card-btn {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  width: 151.400px;
+  height: 53.200px;
+  border: 1px solid #fff;
+}
+
+.blog-section__card-button {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 700;
+  line-height: 1.1em;
+  letter-spacing: .05em;
+  align-self: center;
+
+}
+
+@media (min-width: 767px) {
+  .section-header__title {
+    font-size: 28px;
+    line-height: 39.2px;
+  }
+
+  .section-header__text{
+    font-size: 62px;
+    line-height: 62px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-header__title {
+    font-size: 21px;
+    line-height: 29.4px;
+  }
+
+  .section-header__text{
+    font-size: 51px;
+    line-height: 51px;
+  }
+
+  
+  .blog-section {
+    margin: 60px auto 110px;
+    padding: 0 32px;
+  }
+  
+   .blog-section__cards {
+    margin-top: 15px;
+    column-gap: 30px;
+    justify-content: left;
+    flex-flow: row wrap;
+  }
+  
+  .blog-section__card {
+    width: 47.8%;
+    min-width: 337px;
+    padding-top: 30px;
+    margin-bottom: 0;
+    flex-shrink: 1;
+  }
+  
+  .blog-section__card-category {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22.4px;
+  }
+  
+  .blog-section__card-title {
+    font-size: 32px;
+    line-height: 35.2px;
+  }
+}
+
+@media (min-width: 991px) {
+  .section-header__title {
+    font-size: 28px;
+    line-height: 39.2px;
+  }
+
+  .section-header__text{
+    font-size: 62px;
+    line-height: 62px;
+  }
+
+  .blog-section__card-category {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  
+  .blog-section__card-title {
+    font-size: 38px;
+    line-height: 41.8px;
+  }
+}
+
+@media (min-width: 992px) {
+  .blog-section {
+    margin: 60px 0 130px;
+    max-width: 1200px;
+    padding: 0 40px;
+    min-width: 912px;
+  }
+  
+   .blog-section__cards {
+    justify-content: center;
+    margin: 50px 0 0;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+  }
+  
+  .blog-section__card {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    min-width: 283.987px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .blog-section {
+    margin: 60px auto 130px;
+    align-self: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .blog-section {
+    margin: 60px auto 130px;
+    width: 1200px;
+    padding: 0 15px;
+  }
+}
+
