@@ -6,7 +6,10 @@
     font-size: 17px;
     line-height: 1.5;
 }
-.carousel {
+.brands-container {
+    position: relative;
+}
+.brands-carousel {
     position: relative;
     width: 100%;
     margin: 0 50px;
@@ -28,12 +31,9 @@
 .carousel-item img {
     max-height: 35px;
 }
-.carouselControls {
-    position: relative;
-}
 .carousel-control {
     position: absolute;
-    top: 25px;
+    top: 15px;
     width: 30px;
     height: 50px;
     font-size: 50px;
@@ -41,10 +41,10 @@
     color: #424141;
 }
 .carousel-control-prev {
-    left: -30px;
+    left: 0;
 }
 .carousel-control-next {
-    right: -15px;
+    right: 20px;
 }
 .carousel-control:hover {
     color: var(--title-dark-text-color);
