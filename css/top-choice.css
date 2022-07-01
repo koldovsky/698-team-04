@@ -50,10 +50,44 @@
     margin-top: 20px;
 }
 
-.menu__photos-img {
+.menu__photo1 {
     width: 250px;
     height: 250px;
+    background-image: url(../img/menu1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150% auto;
 }
+
+.menu__photo2 {
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/menu2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 250px auto;
+}
+
+.menu__photo3 {
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/menu3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150% auto;
+}
+
+.menu__photo4 {
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/menu4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 250px auto;
+}
+
+
+
 
 .menu__list {
     margin-bottom: 70px;
