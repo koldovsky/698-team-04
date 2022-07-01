@@ -609,8 +609,9 @@
           </div>
           <div class="footer__subscribe">
             <h3 class="footer__title title">Subscribe</h3>
-            <form class="footer__form email">
-              <input type="email" class="email__input" placeholder="Email*">
+            <form class="footer__subscribe-form email" action="contact" method="post">
+              <input type="email" name="user-email" class="email__input" placeholder="Email*">
+              <div class="contact-form-status"></div>
               <button class="email__submit-button button">Subscribe</button>
             </form>
             <div class="footer__modal-email">

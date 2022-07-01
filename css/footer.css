@@ -74,13 +74,13 @@
 .footer__subscribe {
   margin-top: 50px;
 }
-.footer__form {
+.footer__subscribe-form {
   padding: 0 10px;
 }
 .email__input {
   display: block;
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
   margin: 24px auto;
   padding: 21px 40px;
   font-size: 14px;
