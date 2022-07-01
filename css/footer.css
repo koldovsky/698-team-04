@@ -165,7 +165,7 @@
   display: block;
 }
 .footer__modal-wrapper {
-  position: absolute;
+  position: fixed;
   z-index: 25;
   top: 0;
   left: 0;
@@ -178,6 +178,8 @@
 .footer__modal-content {
   position: fixed;
   top: 30%;
+  right: 50%;
+  transform: translateX(50%);
   width: 324px;
   margin: 0 auto;
   padding: 43px 32px 65px;
