@@ -2,6 +2,7 @@
     color: var(--title-dark-text-color);
     display: flex;
     justify-content: center;
+    padding-bottom: 150px;
 }
 
 .friday__deal {
@@ -14,7 +15,7 @@
     font-family: 'Shadows Into Light';
     text-align: center;
     font-size: 28px;
-    padding-top: 80px;
+    padding-top: 40px;
 
 }
 
@@ -30,8 +31,7 @@
     color:  #444343;
     font-size: 19px;
     text-align: center;
-    margin-bottom: 60px;
-    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .friday-button {
@@ -64,28 +64,32 @@
         margin-left: 30%;
     }
 }
-.friday__offer {
-    background: #b2b2b2 url(../img/friday-background.png) no-repeat;
+#friday-offer {
+    background: #b2b2b2 url(../img/friday-background.png);
     background-blend-mode: luminosity;
+    background-attachment: fixed;
+}
+
+.friday__offer {
     background-size: 100%; 
     height: 700px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 img.relax {
-    width: 400px;
-    height: 550px;
-    padding-top: 100px;
+    width: 550px;
+    height: 570px;
+    margin-top: 50px;
+    margin-right: 50px;
 }
 
 .friday-menu {
     background-color: rgba(17,17,17,0.76);
-    width: 650px;
-    height: 500px;
-    margin-top: 100px;
-    margin-left: 120px;
+    width: 545px;
+    height: 600px;
+    margin-top: 50px;
+
 }
 
 .friday-offer-subtitle {
@@ -98,8 +102,8 @@ img.relax {
 
 .friday-offer-title {
     color: var(--title-text-color);
-    font-family: var(--title-font);
-    font-size: 58px;
+    font-family: Teko, sans-serif;
+    font-size: 62px;
     text-transform: uppercase; 
     text-align: center;
     margin-top: 20px;
@@ -125,10 +129,8 @@ img.relax {
 }
 
 .menu-list-title {
-    font-family: 'Teco';
-    font-size: 20px;
-    margin-top: 0;
-    margin-bottom: 10px;
+    font-family: Teko, sans-serif;
+    font-size: 38px;
 }
 
 .menu-description {
@@ -137,6 +139,35 @@ img.relax {
     color: rgb(209,209,209);
 }
 
-.friday-line {
-    color: hsla(0, 3%, 66%, 0.377);
+.menu-price {
+    color: var(--footer-color);
 }
+
+.timer__items {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .timer__item {
+    position: relative;
+    min-width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  .timer__item::before {
+    content: attr(data-title);
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    font-size:14px;
+  }
+  .timer__item:not(:last-child)::after {
+    content: ':';
+    position: absolute;
+    right: -15px;
+  }
