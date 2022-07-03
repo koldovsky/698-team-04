@@ -15,6 +15,51 @@
     align-items: center;
 }
 
+.header__contacts-news {
+    width: 100%;
+    background-color: white;
+}
+
+.block__news {
+    width: 300px;
+    height: 70px;
+    display: flex;
+    margin: auto;
+}
+
+.iconNewsOrks {
+    background-image: url(https://russianwarship.rip/images/icons/icon-people.svg);
+    width: 150px;
+    height: 65px;
+    background-repeat: no-repeat;
+    background-position: 68% 7px;
+}
+
+.iconNewstanks {
+    background-image: url('https://russianwarship.rip/images/icons/icon-tank.svg');
+    width: 150px;
+    height: 65px;
+    background-repeat: no-repeat;
+    background-position: 68% 7px;
+}
+
+.iconNewsShips {
+    background-image: url('https://russianwarship.rip/images/icons/icon-ship.svg');
+    width: 150px;
+    height: 65px;
+    background-repeat: no-repeat;
+    background-position: 68% 7px;
+}
+
+.header__news-ships,
+.header__news-tanks,
+.header__news-ork {
+    font-family: var(--title-font);
+    font-size: 53px;
+    text-transform: uppercase;
+    color: black;
+}
+
 .header__contacts__text {
     font-family: var(--title-font);
     font-size: 53px;
