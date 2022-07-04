@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     padding-bottom: 150px;
+    position: relative;
 }
 
 .friday__deal {
@@ -48,8 +49,8 @@
 }
 @media (max-width: 450px) {
     .friday__deal{
-        width: 360px;
-        height: 380px;
+        width: 450px;
+        height: 400px;
     } 
     .friday-subtitle {
         font-size: 14px;
@@ -65,6 +66,7 @@
     }
 }
 
+
 .friday__offer {
     background: #b2b2b2 url(../img/friday-background.png);
     background-blend-mode: luminosity;
@@ -73,11 +75,13 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    position: relative;
 }
 @media (max-width: 500px) {
     .friday__offer-menu {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
     .friday__offer {
         height: 1450px;
