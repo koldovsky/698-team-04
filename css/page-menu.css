@@ -85,7 +85,7 @@
 
 .bar-menu__item,
 .food-menu__item {
-    margin: 2px;
+    margin: 0 20px;
 }
 
 .title {
@@ -133,10 +133,15 @@
     justify-content: center;
 }
 
-.btn-prev,
-.btn-next {
-    background-color: black;
-    color: white;
+.button-prev,
+.button-next {
+    outline: none;
+    background-image: url('../img/body-background.png');
+}
+
+.btn-text {
+    color: var(--footer-text-color);
+    font-size: 30px;
 }
 
 /*          Natasha end           */

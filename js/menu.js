@@ -171,6 +171,10 @@
     function showCurrentSlide() {
         const slideContainer = document.querySelector('.main-products__carousel .bar__menu-list');
         slideContainer.innerHTML = slides[slideIdx];
+        if(window.matchMedia('(min-width: 500px)').matches) {
+            const secondSlideIdx = slideIdx + 1 >= slides.length ? 0 : slideIdx + 1;
+            slideContainer.innerHTML += slides[secondSlideIdx];
+        }
     }
 
     function nextSlide() {
@@ -185,9 +189,9 @@
 
     showCurrentSlide();
 
-    const nextButton = document.querySelector('.main-products__carousel > .btn-next');
+    const nextButton = document.querySelector('.main-products__carousel > .button-next');
     nextButton.addEventListener('click', nextSlide);
-    const prevButton = document.querySelector('.main-products__carousel > .btn-prev');
+    const prevButton = document.querySelector('.main-products__carousel > .button-prev');
     prevButton.addEventListener('click', prevSlide);
 
     window.addEventListener('resize', showCurrentSlide);
