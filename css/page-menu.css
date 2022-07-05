@@ -128,18 +128,22 @@
     margin-top: 75px;
 }
 
-.main-products__carousel {
+.main-bar__carousel,
+.main-food__carousel {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.bar__menu-list {
+.bar__menu-list,
+.food__menu-list {
     width: 1060px;
 }
 
-.button-prev,
-.button-next {
+.button-prev-bar,
+.button-next-bar,
+.button-prev-food,
+.button-next-food {
     outline: none;
     background-image: url('../img/body-background.png');
 }

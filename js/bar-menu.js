@@ -169,7 +169,7 @@
     let slideIdx = 0;
 
     function showCurrentSlide() {
-        const slideContainer = document.querySelector('.main-products__carousel .bar__menu-list');
+        const slideContainer = document.querySelector('.main-bar__carousel .bar__menu-list');
         slideContainer.innerHTML = slides[slideIdx];
         if(window.matchMedia('(min-width: 500px)').matches) {
             const secondSlideIdx = slideIdx + 1 >= slides.length ? 0 : slideIdx + 1;
@@ -189,9 +189,9 @@
 
     showCurrentSlide();
 
-    const nextButton = document.querySelector('.main-products__carousel > .button-next');
+    const nextButton = document.querySelector('.main-bar__carousel > .button-next-bar');
     nextButton.addEventListener('click', nextSlide);
-    const prevButton = document.querySelector('.main-products__carousel > .button-prev');
+    const prevButton = document.querySelector('.main-bar__carousel > .button-prev-bar');
     prevButton.addEventListener('click', prevSlide);
 
     window.addEventListener('resize', showCurrentSlide);
