@@ -75,7 +75,7 @@
 
 .bar-menu__header,
 .food-menu__header {
-    margin: 20px 0px 30px 0px;
+    margin: 20px 0px 30px 10px;
     font-size: 38px;
     text-transform: uppercase;
     font-family: "Teko", sans-serif;
@@ -85,7 +85,8 @@
 
 .bar-menu__item,
 .food-menu__item {
-    margin: 0 20px;
+    margin: 0 10px 0 10px;
+    width: 500px;
 }
 
 .title {
@@ -131,6 +132,10 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.bar__menu-list {
+    width: 1060px;
 }
 
 .button-prev,
