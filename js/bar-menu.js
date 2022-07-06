@@ -180,7 +180,7 @@
     function nextSlide() {
         slideIdx = slideIdx + 1 >= slides.length ? 0 : slideIdx + 1;
         showCurrentSlide();
-    }
+      }
 
     function prevSlide() {
         slideIdx = slideIdx - 1 < 0 ? slides.length - 1 : slideIdx - 1;
@@ -188,6 +188,7 @@
     }
 
     showCurrentSlide();
+    
 
     const nextButton = document.querySelector('.main-bar__carousel > .button-next-bar');
     nextButton.addEventListener('click', nextSlide);
