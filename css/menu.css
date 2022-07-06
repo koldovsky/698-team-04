@@ -1,12 +1,8 @@
 /*  -----------------  Menu ----------------- */
 /*  -------- Bohdan Paduchak | start -----------*/
 
-
-
 .menu__block {
   width: 100%;
-  /* height: 200px; */
-  /* background-color: red; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -43,10 +39,7 @@
 
 .menu__block__cards {
   width: 100%;
-  /* background-color: yellow; */
-  /* background-image: url(); */
   background-image: url(../img/body-background.png);
-  /* width: 100%; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -54,11 +47,53 @@
 }
 
 .card {
-  width: 290px;
-  background-color: aqua;
-  height: 340px;
-  padding: 0 15px;
-  /* margin: 30px; */
+  width: 30%;
+  height: 450px;
+  margin: 15px;
+}
+
+/* start hover cards */
+
+
+
+
+
+
+
+
+
+
+
+.card-beforehover-firstcard,
+.card-beforehover-secondcard,
+.card-beforehover-thirdcard
+ {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.card-beforehover-firstcard{
+  background-image: url(../img/menu-section__bar-photo.png);
+}
+.card-afterhover-firstcard,
+.card-afterhover-secondcard,
+.card-afterhover-thirdcard {
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-size: cover;
+  background-image: url(../img/menu-section__bar-photo__blacked.jpg);
+  background-position: 50% 50%;
+}
+
+.firstcard:hover .card-beforehover-firstcard {
+  display: none;
+}
+
+.firstcard:hover .card-afterhover-firstcard {
+  display: block;
 }
 
 .card-title {
@@ -66,38 +101,124 @@
   color: var(--title-text-color);
   font-size: 60px;
   text-align: center;
-  position: absolute;
-  margin-left: 40px;
+  padding-bottom: 50px;
 }
 
-.firstCard {
-  background-color: brown;
-  background-size: cover;
-  background-image: url(../img/menu-section__bar-photo.png);
-  background-position: 50% 50%;
-  margin: 0 15px;
-  /* display: flex; */
-  /* justify-content: center; */
-}
-.firstCard:hover{
-  opacity: 0.5;
-  cursor: pointer;
-  /* background-color: red; */
-}
 .card-text {
   margin-top: 100px;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   color: var(--footer-text-color);
-  margin-bottom: 20px;
+  margin: 0 15px;
 }
 
 .link-menu {
   color: var(--button-color);
   font-family: Teko, sans-serif;
   font-size: 20px;
-  margin-left: 80px;
+  display: block;
+  margin: 30px;
+  text-align: center;
 }
+
+.link-menu:hover {
+  text-decoration: underline;
+}
+
+.card-beforehover-secondcard{
+  background-image: url(../img/menu-section__food-photo.png);
+}
+
+.card-afterhover-secondcard {
+  background-image: url(../img/menu-section__food-photo__blacked.jpg);
+}
+
+.secondcard:hover .card-beforehover-secondcard {
+  display: none;
+}
+
+.secondcard:hover .card-afterhover-secondcard {
+  display: block;
+}
+
+.card-beforehover-thirdcard {
+  background-image: url(../img/menu-section__happy-hour-photo.png);
+}
+
+.card-afterhover-thirdcard {
+  background-image: url(../img/menu-section__happy-hour-photo__blacked.jpg);
+}
+
+.thirdcard:hover .card-beforehover-thirdcard {
+  display: none;
+}
+
+.thirdcard:hover .card-afterhover-thirdcard {
+  display: block;
+}
+
+/* end hover style */
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 990px) {
+  .card-beforehover-thirdcard,
+  .card-beforehover-secondcard,
+  .card-beforehover-firstcard   {
+    display: none;
+  }
+
+  .card-afterhover-thirdcard,
+  .card-afterhover-firstcard,
+  .card-afterhover-secondcard {
+    display: block;
+    padding-top: 50px;
+
+  }
+  .card {
+    width: 40%;
+    height: 55vw;
+    margin: 15px;
+  }
+  .card-title {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 780px) {
+  .card {
+    width: 100%;
+    height: 90vw;
+    margin: 7px;
+  }
+  .card-afterhover-thirdcard,
+  .card-afterhover-firstcard,
+  .card-afterhover-secondcard {
+    padding-top: 200px;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -116,6 +237,26 @@
   width: 100%;
   height: 500px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* .hover-block{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity:0.2;
+
+
+
 
 
 /* 
@@ -203,9 +344,7 @@
       }
 }
 
-@media (min-width: 768px) {
 
-}
 
 @media (min-width: 1281px) {
     .blog-section {
