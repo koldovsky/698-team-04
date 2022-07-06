@@ -1,0 +1,23 @@
+.img-slider {
+    opacity: 100%;
+    background-color: black;
+}
+
+.carousel {
+    background-color: var(--footer-background-color);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 95%;
+}
+
+.slides {
+    
+}
+
+.btn-prev,
+.btn-next {
+    border: none;
+    background-color: black;
+    opacity: 50%;
+}

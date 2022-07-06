@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    width: 90%;
+    width: 80%;
 }
 
 .topchoice__title {
@@ -53,13 +53,9 @@
     justify-content: center;
 }
 
-.photo {
-    margin: 10px 10px 10px 10px;
-}
-
 .menu__photo1 {
-    width: 250px;
-    height: 250px;
+    width: 270px;
+    height: 270px;
     background-image: url(../img/menu1.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -67,17 +63,17 @@
 }
 
 .menu__photo2 {
-    width: 250px;
-    height: 250px;
+    width: 270px;
+    height: 270px;
     background-image: url(../img/menu2.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 250px auto;
+    background-size: 300px auto;
 }
 
 .menu__photo3 {
-    width: 250px;
-    height: 250px;
+    width: 270px;
+    height: 270px;
     background-image: url(../img/menu3.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -85,12 +81,12 @@
 }
 
 .menu__photo4 {
-    width: 250px;
-    height: 250px;
+    width: 270px;
+    height: 270px;
     background-image: url(../img/menu4.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 250px auto;
+    background-size: 280px auto;
 }
 
 .menu__list {
@@ -100,7 +96,7 @@
 }
 
 .menu__list-container {
-    margin: 40px 10px 40px 10px;
+    margin: 40px 10px 40px 0px;
 }
 
 .menu__title{
@@ -138,18 +134,18 @@
     margin: 70px auto 5px auto;
     padding: 23px 10px;
     width: 232px;
-    background-color: #ffc123;
+    background-color: var(--button-color);
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #111111;
+    color: var(--header-color);
     transition: background-color .2s ease-in;
     margin-bottom: 100px;
 }
 
 .topchoice-button:hover {
-    background-color: #e6ad1e;
+    background-color: var(--button-hover-color);
 }
 
 .topchoice-button__text {
@@ -170,7 +166,7 @@
         justify-content: center;
     }
     .photo {
-        margin: 0px 10px 0px 10px;
+        margin: 0px 20px;
     }
     .menu__list-container {
         margin: 0px 10px 40px 10px;
