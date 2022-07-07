@@ -202,56 +202,25 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .manu__block__offer {
-  /* background-color: chartreuse; */
   width: 91%;
-  /* height: 550px; */
-  padding: 50px 30px 50px 30px;
+  padding: 50px 30px 20px 30px;
   display: flex;
   flex-wrap: no-wrap;
 }
 
 .block__offer__whatwe {
   height: 450px;
-  /* background-color: pink; */
-  width: 300px;
+  width: 420px;
   display: inline-block;
 }
 
-
-
-
-
-
-
 .offer-section__title {
-  /* margin-top: 120px; */
   text-align: left;
   color: var(--button-color);
   font-family: 'Shadows Into Light';
   font-size: 25px;
+  margin-bottom: 20px;
 }
 
 .offer-section__subtitle {
@@ -261,73 +230,79 @@
   text-align: center;
   line-height: 1;
   text-align: left;
+  margin-bottom: 20px;
 }
 
 .offer-section__text {
   text-align: left;
   font-size: 19px;
   color: var(--footer-text-color);
-  /* margin-bottom: 50px; */
+  margin-bottom: 40px;
 }
-.beer{
+
+.beer {
   color: var(--button-color);
 }
-.btn--learnmore{
-background-color: var(--button-color);
-height: 60px;
-width: 185px;
-}
-.btn--learnmore:hover{
-cursor: pointer;
-display: flex;
-justify-content: center;
-}
-.offer-section__button{
-padding: 15px;
-text-decoration: none;
-color: #111111;
-display: block;
-text-align: center;
+
+.btn--learnmore {
+  background-color: var(--button-color);
+  height: 60px;
+  width: 185px;
 }
 
+.btn--learnmore:hover {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
 
-
+.offer-section__button {
+  padding: 20px;
+  text-decoration: none;
+  color: #111111;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+}
 
 .offer__container {
-  /* background-color: blue; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
-  /* height: 100%; */
 }
 
 .blockoffer {
-  width: 45%;
   height: 150px;
-  /* background-color: deeppink; */
-  margin: 10px;
+  margin-left: 100px;
+}
+
+@media (max-width: 1200px) {
+  .blockoffer {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 990px) {
   .block__offer__whatwe {
     width: 100%;
-    height: 150px;
-    background-color: green;
+    height: 300px;
     display: block;
   }
 
   .manu__block__offer {
-    height: 650px;
+    height: 850px;
     flex-wrap: wrap;
+  }
+
+  .offer__container {
+    justify-content: space-evenly;
   }
 }
 
 @media (max-width: 780px) {
   .block__offer__whatwe {
     width: 100%;
-    height: 150px;
-    background-color: green;
+    height: 320px;
     display: block;
   }
 
@@ -341,20 +316,31 @@ text-align: center;
   }
 
   .manu__block__offer {
-    height: 1000px;
+    height: auto;
     flex-wrap: wrap;
   }
+
+  .offer__container {
+    margin-top: 100px;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .bottle-part-text {
+    width: 200px;
+  }
 }
-
-
-
-
 
 .block__offer__bottle,
 .block__offer__snack,
 .block__offer__beer,
 .block__offer__cocktails {
   display: flex;
+  width: 300px;
+}
+
+.block__offer__block-text {
+  width: 300px;
 }
 
 .image-offer-bottle,
@@ -366,7 +352,7 @@ text-align: center;
   background-size: contain;
   background-repeat: no-repeat;
   height: 120px;
-  width: 97px;
+  width: 110px;
   display: flex;
   margin-top: 7px;
 }
@@ -396,114 +382,48 @@ text-align: center;
 
 .bottle-part-text {
   display: block;
-  width: 120px;
+  width: 200px;
   text-align: left;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--footer-text-color);
-  /* margin-bottom: 50px; */
+  margin-top: 15px;
 }
 
+@media (max-width: 780px) {
 
-
-
-
-
-
-
-
-
-
-
-/* .hover-block{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity:0.2;
-
-/* 
-.menu-section {
-    color: #fff;
-}
-    .menu-section__big-card--bar {
-        
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .menu-section__big-card--food {
-        background-image: url(../img/menu-section__food-photo.png);
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .menu-section__big-card--happy-hour {
-        background-image: url(../img/menu-section__happy-hour-photo.png);
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .menu-section__big-card-title {
-        grid-area: "title";
-        font-family: Teko, sans-serif;
-        font-size: 54px;
-        font-weight: 400;
-        align-self:baseline;
-        line-height: 59.4px;
-    }
-
-    .menu-section__big-card-text {
-        display: none;
-        grid-area: "text";
-        font-family: "Open Sans", sans-serif;
-        font-size: 17px;
-        line-height: 25.5px;
-        font-weight: 400;
-        margin-block-start: 25px;
-        text-align: center;
-        animation: fade .5s linear forwards;  
-    }
-
-    @keyframes fade {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
-      }
-
-      .menu-section__big-card:hover{
-        background: rgba(0, 0, 0, 0.5);
-      }
-
-      .menu-section__big-card:hover .menu-section__big-card-text{
-        display: contents;
-      }
-
-    .menu-section__big-card-button {
-        display: none;
-        grid-area: "button";
-        line-height: 13.2px;
-        font-weight: 400;
-        font-size: 12px;
-        font-family: "Open Sans", sans-serif;
-        color: rgb(255, 201, 98) ;
-        letter-spacing: 0.6px;
-        opacity: 1;
-        text-decoration-color: rgb(255, 201, 98);
-        text-decoration-style: solid;
-        animation: fade .5s linear forwards;
-      
-    }
-    .menu-section__big-card:hover .menu-section__big-card-button{
-        display: contents;
-      }
-}
-
-@media (min-width: 1281px) {
-    .blog-section {
-      margin: 60px auto 130px;
-    }
+  .block__offer__bottle,
+  .block__offer__snack,
+  .block__offer__beer,
+  .block__offer__cocktails {
+    display: flex;
+    width: 100%;
   }
 
- -------- Bohdan Paduchak | end ----------- */
+  .block__offer__block-text {
+    width: 100%;
+  }
+
+  .bottle-part-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .card-afterhover-thirdcard,
+  .card-afterhover-firstcard,
+  .card-afterhover-secondcard {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 430px) {
+
+  .card-afterhover-thirdcard,
+  .card-afterhover-firstcard,
+  .card-afterhover-secondcard {
+    padding-top: 0;
+  }
+}
+
+/* -------- Bohdan Paduchak | end -----------  */
