@@ -1,6 +1,6 @@
 /*  -------- Diana Pinchuk | start -----------*/
 .blog-section {
-  margin: 60px 0 90px;
+  margin: 60px 0 60px;
   padding: 0 24px;
   min-width: 320px;
   display: flex;
@@ -10,7 +10,7 @@
  .blog-section__cards {
   min-width: 272px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-self: center;
   justify-self: center;
   justify-content: center;
@@ -20,7 +20,7 @@
 .blog-section__card {
   display: flex;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .blog-section__card-category {
@@ -71,6 +71,23 @@
   align-self: center;
 }
 
+.blog-section__cards-btn{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.blog-section__cards-btn-prev,
+.blog-section__cards-btn-next {
+  width: 50px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 40px;
+  color: var(--buttom-arrow-color);
+  background: url('../img/body-background.png');
+}
+
+
 @media (min-width: 768px) {
   .blog-section {
     margin: 60px auto 110px;
@@ -102,6 +119,10 @@
     font-size: 32px;
     line-height: 35.2px;
   }
+
+  .blog-section__cards-btn{
+    margin-top: 60px;
+  }
 }
 
 @media (min-width: 991px) {
@@ -114,6 +135,10 @@
   .blog-section__card-title {
     font-size: 38px;
     line-height: 41.8px;
+  }
+
+  .blog-section__cards-btn{
+    margin-top: 80px;
   }
 }
 
