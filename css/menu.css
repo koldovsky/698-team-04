@@ -1,22 +1,88 @@
-/*  -----------------  Menu ----------------- */
 /*  -------- Diana Pinchuk | start -----------*/
-
-
 .menu-section {
-    color: #fff;
-}
-
-.menu-section {
-    margin: 120px 40px 65px;
-    height: 564.050px;
-    max-width: 100%;
+    margin: 90px 0 65px;
+    padding: 0 24px;
+    min-width: 320px;
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
-    align-content: center;
+  }
+
+  .menu-section__cards {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.menu-section__big-card {
+    position: relative;
+    width: 272px;
+    height: 325.575px;
+    padding: 15px;
+    align-self: center;
+    margin-bottom: 50px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.menu-section__big-card--bar{
+    background-image: url(../img/menu-section__bar-photo.png);
+    background-size: cover;
+    background-position: center;
 }
 
 
+.menu-section__big-card-text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    z-index: 2;
+    opacity: 1;
+}
+
+.menu-section__big-card-title {
+    padding-top: 15px;
+    font-family: Teko, sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 41.8px;
+}
+
+.menu-section__big-card-text {
+    width: 238.6px;
+    padding-top: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    line-height: 25.5px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.menu-section__big-card-button {
+    margin-top: 26.250px;
+    line-height: 13.2px;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 201, 98) ;
+    letter-spacing: 0.6px;
+}
+
+
+
+
+
+
+
+/*
 @media (min-width: 992px) {
     .menu-section__cards {
         height: 339.925px;
@@ -39,7 +105,6 @@
         text-align: center;
         padding: 15px;
     }
-
 
     .menu-section__big-card--bar {
         background-image: url(../img/menu-section__bar-photo.png);
@@ -128,5 +193,5 @@
       margin: 60px auto 130px;
     }
   }
-
+*/
 /*  -------- Diana Pinchuk | end -----------*/
