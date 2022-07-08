@@ -3,6 +3,11 @@
 .topchoice-section {
     padding-top: 150px;
     color: var(--bacis-text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
 }
 
 .topchoice__title {
@@ -36,37 +41,62 @@
 }
 
 .menu__photos {
-    width: 34%;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    justify-content: space-between;
     margin-bottom: 60px;
 }
 
 .menu-photos__container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20px;
+    justify-content: center;
 }
 
-.menu__photos-img {
-    width: 250px;
-    height: 250px;
+.menu__photo1 {
+    width: 270px;
+    height: 270px;
+    background-image: url(../img/menu1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150% auto;
+}
+
+.menu__photo2 {
+    width: 270px;
+    height: 270px;
+    background-image: url(../img/menu2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+}
+
+.menu__photo3 {
+    width: 270px;
+    height: 270px;
+    background-image: url(../img/menu3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150% auto;
+}
+
+.menu__photo4 {
+    width: 270px;
+    height: 270px;
+    background-image: url(../img/menu4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 280px auto;
 }
 
 .menu__list {
-    margin-bottom: 70px;
-}
-
-.menu__list-container{
+    margin: auto;
     display: flex;
-    flex-direction: column;
-    margin: 0px 0px 50px 30px;
+    flex-direction: row;
 }
 
-.menu__title-container {
-    display: inline;
+.menu__list-container {
+    margin: 40px 10px 40px 0px;
 }
 
 .menu__title{
@@ -74,6 +104,8 @@
     text-transform: uppercase;
     font-family: "Teko", sans-serif;
     font-weight: 400;
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu-line {
@@ -99,21 +131,21 @@
 
 .topchoice-button {
     display: block;
-    margin: 10px auto;
+    margin: 70px auto 5px auto;
     padding: 23px 10px;
     width: 232px;
-    background-color: #ffc123;
+    background-color: var(--button-color);
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #111111;
+    color: var(--header-color);
     transition: background-color .2s ease-in;
     margin-bottom: 100px;
 }
 
 .topchoice-button:hover {
-    background-color: #e6ad1e;
+    background-color: var(--button-hover-color);
 }
 
 .topchoice-button__text {
@@ -122,7 +154,96 @@
     justify-content: center;
 }
 
+@media (min-width: 992px) {
+    .menu__photos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .menu-photos__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .photo {
+        margin: 0px 20px;
+    }
+    .menu__list-container {
+        margin: 0px 10px 40px 10px;
+    }
+}
 
+@media (max-width: 990px) {
+    .menu__title,
+    .menu__price {
+        font-size: 32px;
+    }
+    
+    .menu__description{
+        font-size: 11px;
+    }
+    .menu__list {
+        flex-direction: column;
+    }
+    .menu__list-container {
+        margin: 0px 10px 40px 10px;
+    }
+}
+
+@media (max-width: 832px) {
+    .menu__title,
+    .menu__price {
+        font-size: 28px;
+    }
+    
+    .menu__description{
+        font-size: 7px;
+    }
+    .menu__list {
+        flex-direction: column;
+    }
+    .menu__list-container {
+        margin: 0px 10px 40px 10px;
+    }
+}
+
+@media (max-width: 745px) {
+    .menu__title,
+    .menu__price {
+        font-size: 26px;
+    }
+    
+    .menu__description{
+        font-size: 5px;
+    }
+    .menu__list {
+        flex-direction: column;
+    }
+    .menu__photo1,
+    .menu__photo2,
+    .menu__photo3,
+    .menu__photo4 {
+        width: 200px;
+        height: 200px;
+    }
+    .menu__list-container {
+        margin: 0px 10px 30px 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .menu-photos__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .menu__list {
+        flex-direction: column;
+    }
+    .menu__list-container {
+        margin: 0px 10px 20px 10px;
+    }
+}
 
 
 

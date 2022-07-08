@@ -1,3 +1,5 @@
+/*          Natasha start           */
+
 @import url(common.css);
 @import url(controls.css);
 @import url(header.css);
@@ -14,12 +16,11 @@
     width: 100%;
     height: 132px;
     background-image: url("../img/fon_contacts.jpg");
-    margin-top: 120px;
+    margin: 120px 0;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 120px;
 }
 
 .menu__header__text,
@@ -60,18 +61,20 @@
     color: var(--second-text-color);
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .bar__menu-list,
 .food__menu-list {
     display: flex;
-    margin: auto;
+    justify-content: space-between;
+    margin: 0px 10px 0px 10px;
 }
 
 
 .bar-menu__header,
 .food-menu__header {
-    margin: 20px 0px 30px 0px;
+    margin: 20px 0px 30px 10px;
     font-size: 38px;
     text-transform: uppercase;
     font-family: "Teko", sans-serif;
@@ -81,7 +84,8 @@
 
 .bar-menu__item,
 .food-menu__item {
-    margin-bottom: 10px;
+    margin: 0 10px 0 10px;
+    width: 500px;
 }
 
 .title {
@@ -89,6 +93,8 @@
     text-transform: uppercase;
     font-family: "Teko", sans-serif;
     font-weight: 400;
+    display: flex;
+    justify-content: space-between
 }
 
 .menu-line {
@@ -105,7 +111,7 @@
 }
 
 .description {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.5;
     font-family: Open Sans,sans-serif;
     font-weight: 400;
@@ -120,3 +126,32 @@
 .menu-page__food {
     margin-top: 75px;
 }
+
+/* ---------Carousel---------- */
+
+.main-bar__carousel,
+.main-food__carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bar__menu-list,
+.food__menu-list {
+    width: 1060px;
+}
+
+.button-prev-bar,
+.button-next-bar,
+.button-prev-food,
+.button-next-food {
+    outline: none;
+    background-image: url('../img/body-background.png');
+}
+
+.btn-text {
+    color: var(--footer-text-color);
+    font-size: 30px;
+}
+
+/*          Natasha end           */

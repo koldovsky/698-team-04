@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*  -------- Diana Pinchuk | start -----------*/
 .menu-section {
     margin: 90px 0 65px;
@@ -182,16 +183,439 @@
     .menu-section__big-card:hover .menu-section__big-card-button{
         display: contents;
       }
+=======
+/*  -----------------  Menu ----------------- */
+/*  -------- Bohdan Paduchak | start -----------*/
+
+.menu__block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 70px;
 }
 
-@media (min-width: 768px) {
-
+.menu__block__title,
+.menu__block__bigText,
+.menu__block__smallText {
+  display: inline-block;
+  width: 100%;
 }
 
-@media (min-width: 1281px) {
-    .blog-section {
-      margin: 60px auto 130px;
-    }
+.menu__block__title {
+  margin-top: 120px;
+  text-align: center;
+  color: var(--button-color);
+  font-family: 'Shadows Into Light';
+  font-size: 25px;
+>>>>>>> 8f296a1a279e9ac200fee40ada98d2410decf302
+}
+
+.menu__block__bigText {
+  text-align: center;
+  font-size: 62px;
+  color: var(--title-text-color);
+  font-family: Teko, sans-serif;
+}
+
+.menu__block__smallText {
+  text-align: center;
+  font-size: 19px;
+  color: var(--footer-text-color);
+  margin-bottom: 50px;
+}
+
+.menu__block__cards {
+  width: 100%;
+  background-image: url(../img/body-background.png);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 30px 65px 30px;
+}
+
+.card {
+  width: 30%;
+  height: 450px;
+  margin: 15px;
+}
+
+/* start hover cards */
+.card-beforehover-firstcard,
+.card-beforehover-secondcard,
+.card-beforehover-thirdcard {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.card-beforehover-firstcard {
+  background-image: url(../img/menu-section__bar-photo.png);
+}
+
+.card-afterhover-firstcard,
+.card-afterhover-secondcard,
+.card-afterhover-thirdcard {
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-size: cover;
+  background-image: url(../img/menu-section__bar-photo__blacked.jpg);
+  background-position: 50% 50%;
+}
+
+.firstcard:hover .card-beforehover-firstcard {
+  display: none;
+}
+
+.firstcard:hover .card-afterhover-firstcard {
+  display: block;
+}
+
+.card-title {
+  font-family: Teko, sans-serif;
+  color: var(--title-text-color);
+  font-size: 60px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.card-text {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 18px;
+  color: var(--footer-text-color);
+  margin: 0 15px;
+}
+
+.link-menu {
+  color: var(--button-color);
+  font-family: Teko, sans-serif;
+  font-size: 20px;
+  display: block;
+  margin: 30px;
+  text-align: center;
+}
+
+.link-menu:hover {
+  text-decoration: underline;
+}
+
+.card-beforehover-secondcard {
+  background-image: url(../img/menu-section__food-photo.png);
+}
+
+.card-afterhover-secondcard {
+  background-image: url(../img/menu-section__food-photo__blacked.jpg);
+}
+
+.secondcard:hover .card-beforehover-secondcard {
+  display: none;
+}
+
+.secondcard:hover .card-afterhover-secondcard {
+  display: block;
+}
+
+.card-beforehover-thirdcard {
+  background-image: url(../img/menu-section__happy-hour-photo.png);
+}
+
+.card-afterhover-thirdcard {
+  background-image: url(../img/menu-section__happy-hour-photo__blacked.jpg);
+}
+
+.thirdcard:hover .card-beforehover-thirdcard {
+  display: none;
+}
+
+.thirdcard:hover .card-afterhover-thirdcard {
+  display: block;
+}
+
+/* end hover style */
+
+@media (max-width: 990px) {
+
+  .card-beforehover-thirdcard,
+  .card-beforehover-secondcard,
+  .card-beforehover-firstcard {
+    display: none;
   }
+<<<<<<< HEAD
 */
 /*  -------- Diana Pinchuk | end -----------*/
+=======
+
+  .card-afterhover-thirdcard,
+  .card-afterhover-firstcard,
+  .card-afterhover-secondcard {
+    display: block;
+    padding-top: 50px;
+
+  }
+
+  .card {
+    width: 40%;
+    height: 55vw;
+    margin: 15px;
+  }
+
+  .card-title {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 780px) {
+  .menu__block {
+    padding: 0;
+  }
+
+  .card {
+    width: 100%;
+    height: 90vw;
+    margin: 7px;
+  }
+
+  .card-afterhover-thirdcard,
+  .card-afterhover-firstcard,
+  .card-afterhover-secondcard {
+    padding-top: 200px;
+
+  }
+}
+
+@media (max-width: 1200px) {
+  .menu__block {
+    padding: 0;
+  }
+}
+
+.manu__block__offer {
+  width: 91%;
+  padding: 50px 30px 20px 30px;
+  display: flex;
+  flex-wrap: no-wrap;
+}
+
+.block__offer__whatwe {
+  height: 450px;
+  width: 420px;
+  display: inline-block;
+}
+
+.offer-section__title {
+  text-align: left;
+  color: var(--button-color);
+  font-family: 'Shadows Into Light';
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.offer-section__subtitle {
+  font-family: Teko, sans-serif;
+  color: var(--title-text-color);
+  font-size: 60px;
+  text-align: center;
+  line-height: 1;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.offer-section__text {
+  text-align: left;
+  font-size: 19px;
+  color: var(--footer-text-color);
+  margin-bottom: 40px;
+}
+
+.beer {
+  color: var(--button-color);
+}
+
+.btn--learnmore {
+  background-color: var(--button-color);
+  height: 60px;
+  width: 185px;
+}
+
+.btn--learnmore:hover {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.offer-section__button {
+  padding: 20px;
+  text-decoration: none;
+  color: #111111;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+}
+
+.offer__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blockoffer {
+  height: 150px;
+  margin-left: 100px;
+}
+
+@media (max-width: 1200px) {
+  .blockoffer {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 990px) {
+  .block__offer__whatwe {
+    width: 100%;
+    height: 300px;
+    display: block;
+  }
+
+  .manu__block__offer {
+    height: 850px;
+    flex-wrap: wrap;
+  }
+
+  .offer__container {
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 780px) {
+  .block__offer__whatwe {
+    width: 100%;
+    height: 320px;
+    display: block;
+  }
+
+  .manu__block__offer {
+    height: 650px;
+    flex-wrap: wrap;
+  }
+
+  .blockoffer {
+    width: 100%;
+  }
+
+  .manu__block__offer {
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .offer__container {
+    margin-top: 100px;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .bottle-part-text {
+    width: 200px;
+  }
+}
+
+.block__offer__bottle,
+.block__offer__snack,
+.block__offer__beer,
+.block__offer__cocktails {
+  display: flex;
+  width: 300px;
+}
+
+.block__offer__block-text {
+  width: 300px;
+}
+
+.image-offer-bottle,
+.image-offer-snack,
+.image-offer-beer,
+.image-offer-cocktails {
+  background-size: cover;
+  background-position: 50% 48%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 120px;
+  width: 110px;
+  display: flex;
+  margin-top: 7px;
+}
+
+.image-offer-bottle {
+  background-image: url(../img/menu-section__bottled-beer.svg);
+}
+
+.image-offer-snack {
+  background-image: url(../img/menu-section__snacks.svg);
+}
+
+.image-offer-beer {
+  background-image: url(../img/menu-section__beer-on-tap.svg);
+}
+
+.image-offer-cocktails {
+  background-image: url(../img/menu-section__cocktails.svg);
+}
+
+.offer-section-card-title {
+  font-family: Teko, sans-serif;
+  color: var(--title-text-color);
+  font-size: 40px;
+  height: 41px;
+}
+
+.bottle-part-text {
+  display: block;
+  width: 200px;
+  text-align: left;
+  font-size: 16px;
+  color: var(--footer-text-color);
+  margin-top: 15px;
+}
+
+@media (max-width: 780px) {
+
+  .block__offer__bottle,
+  .block__offer__snack,
+  .block__offer__beer,
+  .block__offer__cocktails {
+    display: flex;
+    width: 100%;
+  }
+
+  .block__offer__block-text {
+    width: 100%;
+  }
+
+  .bottle-part-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .card-afterhover-thirdcard,
+  .card-afterhover-firstcard,
+  .card-afterhover-secondcard {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 430px) {
+
+  .card-afterhover-thirdcard,
+  .card-afterhover-firstcard,
+  .card-afterhover-secondcard {
+    padding-top: 0;
+  }
+}
+
+/* -------- Bohdan Paduchak | end -----------  */
+>>>>>>> 8f296a1a279e9ac200fee40ada98d2410decf302
