@@ -47,6 +47,12 @@
     margin-left: 43%;
     text-decoration: none;
 }
+
+@media (max-width: 321px) {
+    .friday__deal {
+        width: 320px;
+    }
+}
 @media (max-width: 450px) {
     .friday__deal{
         width: 450px;
@@ -66,7 +72,15 @@
     }
 }
 
-
+@media (max-width:1100px) and (min-width:450px){
+    .friday__deal {
+        width: 500px;
+        height: 500px;
+    }
+    .friday-button {
+        margin-left: 35%;
+    }
+}
 .friday__offer {
     background: #b2b2b2 url(../img/friday-background.png);
     background-blend-mode: luminosity;
@@ -85,7 +99,7 @@
     }
     .friday__offer {
         height: 1450px;
-        width: 600px;
+        width: 390px;
     }
     img.relax {
         width: 280px;
@@ -94,17 +108,23 @@
         text-align: center;
     }
     .friday-menu {
-        width: 280px;
         height: 1000px;
+        width: 300px;
     }
     }
-    @media (max-width: 1100px) {
+    @media (max-width: 550px){
+        .friday__offer-menu {
+            width: 600px;
+            height: 1600px;
+        }
+    }
+    @media (max-width: 1000px) {
         .friday__offer-menu {
             display: flex;
             flex-direction: column;
         }
         .friday__offer {
-            width: 560px;
+            width: 500px;
             height: 1400px;
         }
         img.relax {
@@ -121,10 +141,9 @@ img.relax {
     margin-top: 50px;
     
 }
-
 .friday-menu {
     background-color: rgba(17,17,17,0.76);
-    width: 545px;
+    width: 500px;
     height: 600px;
     margin-top: 50px;
     display: flex;
