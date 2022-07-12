@@ -37,7 +37,7 @@
     color: var(--second-text-color);
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .menu__photos {
