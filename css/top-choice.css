@@ -90,13 +90,8 @@
 }
 
 .menu__list {
-    margin: auto;
     display: flex;
     flex-direction: row;
-}
-
-.menu__list-container {
-    margin: 40px 10px 40px 0px;
 }
 
 .menu__title{
