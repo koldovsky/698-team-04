@@ -121,6 +121,10 @@
 .menu__img {
     width: 80%;
     margin: auto;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .menu-page__food {
@@ -152,6 +156,58 @@
 .btn-text {
     color: var(--footer-text-color);
     font-size: 30px;
+}
+
+@media (max-width: 788px) {
+
+.menu__header__text,
+.food-menu__header {
+    font-size: 43px;
+}
+
+.bar__title,
+.food__title {
+    font-size: 18px;
+}
+
+.food__menu,
+.bar__menu {
+    font-size: 52px;
+}
+
+.bar__offer,
+.food__offer {
+    font-size: 9px;
+}
+
+.bar-menu__header,
+.food-menu__header {
+    font-size: 28px;
+}
+
+.title {
+    font-size: 28px;
+}
+
+.price {
+    font-size: 28px;
+}
+
+.description {
+    font-size: 6px;
+}
+
+.menu__img {
+    width: 30%;
+    margin: auto;
+}
+}
+
+@media (max-width: 988px) {
+.menu__img {
+    width: 30%;
+    margin: auto;
+}
 }
 
 /*          Natasha end           */

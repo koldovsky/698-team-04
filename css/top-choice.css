@@ -48,17 +48,16 @@
 }
 
 .menu-photos__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     margin-bottom: 50px;
 }
 
 .menu__photo {
-    width: 98%;
-    height: 98%;
-    display: flex;
+    width: 95%;
+    height: 95%;
+    /* display: flex;
     justify-content: center;
+    flex-direction: row; */
+    margin: auto;
 }
 
 .menu__list {
@@ -128,29 +127,22 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    position: relative;
 }
 
-.button-prev,
-.button-next {
-    outline: none;
-    background-image: url('../img/body-background.png');
-}
-
-.btn-text {
-    color: var(--footer-text-color);
-    font-size: 30px;
-}
 
 @media (min-width: 992px) {
     .menu__photos {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        position: relative;
     }
     .menu-photos__container {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        position: relative;
     }
     .photo {
         margin: 0px 20px;
@@ -175,9 +167,27 @@
     .menu__list-container {
         margin: 0px 10px 40px 10px;
     }
+    .menu__photo {
+        width: 98%;
+        height: 98%;
+    }
+    .menu__list-container {
+        margin: 0px 10px 30px 10px;
+    }
+    .menu-photos__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .menu__list {
+        flex-direction: column;
+    }
+    .menu__list-container {
+        margin: 0px 10px 20px 10px;
+    }
 }
 
-@media (max-width: 832px) {
+/* @media (max-width: 832px) {
     .menu__title,
     .menu__price {
         font-size: 28px;
@@ -192,7 +202,7 @@
     .menu__list-container {
         margin: 0px 10px 40px 10px;
     }
-}
+} */
 
 @media (max-width: 745px) {
     .menu__title,
@@ -206,19 +216,13 @@
     .menu__list {
         flex-direction: column;
     }
-    .menu__photo1,
-    .menu__photo2,
-    .menu__photo3,
-    .menu__photo4 {
-        width: 1500px;
-        height: 150px;
+    .menu__photo {
+        width: 98%;
+        height: 98%;
     }
     .menu__list-container {
         margin: 0px 10px 30px 10px;
     }
-}
-
-@media (max-width: 500px) {
     .menu-photos__container {
         display: flex;
         flex-direction: row;
@@ -231,6 +235,10 @@
         margin: 0px 10px 20px 10px;
     }
 }
+
+/* @media (max-width: 500px) {
+    
+} */
 
 
 

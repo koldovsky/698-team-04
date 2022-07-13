@@ -171,7 +171,7 @@
     function showCurrentSlide() {
         const slideContainer = document.querySelector('.main-bar__carousel .bar__menu-list');
         slideContainer.innerHTML = slides[slideIdx];
-        if(window.matchMedia('(min-width: 900px)').matches) {
+        if(window.matchMedia('(min-width: 788px)').matches) {
             const secondSlideIdx = slideIdx + 1 >= slides.length ? 0 : slideIdx + 1;
             slideContainer.innerHTML += slides[secondSlideIdx];
         }
