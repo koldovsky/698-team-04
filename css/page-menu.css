@@ -158,56 +158,89 @@
     font-size: 30px;
 }
 
-@media (max-width: 788px) {
-
-.menu__header__text,
-.food-menu__header {
-    font-size: 43px;
-}
-
-.bar__title,
-.food__title {
-    font-size: 18px;
-}
-
-.food__menu,
-.bar__menu {
-    font-size: 52px;
-}
-
-.bar__offer,
-.food__offer {
-    font-size: 9px;
-}
-
-.bar-menu__header,
-.food-menu__header {
-    font-size: 28px;
-}
-
-.title {
-    font-size: 28px;
-}
-
-.price {
-    font-size: 28px;
-}
-
-.description {
-    font-size: 6px;
-}
-
-.menu__img {
-    width: 30%;
-    margin: auto;
-}
-}
-
 @media (max-width: 988px) {
-.menu__img {
-    width: 30%;
+.main-bar__carousel,
+.main-food__carousel {
+    width: 60%;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 }
+
+@media (max-width: 745px) {
+
+    .menu__header__text,
+    .food-menu__header {
+        font-size: 43px;
+    }
+    
+    .bar__title,
+    .food__title {
+        font-size: 18px;
+    }
+    
+    .food__menu,
+    .bar__menu {
+        font-size: 52px;
+    }
+    
+    .bar__offer,
+    .food__offer {
+        font-size: 9px;
+    }
+    
+    .bar-menu__header,
+    .food-menu__header {
+        font-size: 28px;
+    }
+    
+    .title {
+        font-size: 28px;
+    }
+    
+    .price {
+        font-size: 28px;
+    }
+    
+    .description {
+        font-size: 6px;
+    }
+    .bar__menu-list,
+    .food__menu-list {
+    width: 560px;
+}
+}
+
+@media (max-width: 588px) {
+    .bar__menu-list,
+    .food__menu-list {
+    width: 400px;
+}
+.menu__header__text,
+    .food-menu__header {
+        font-size: 43px;
+    }
+    
+    .bar-menu__header,
+    .food-menu__header {
+        font-size: 18px;
+    }
+    
+    .title {
+        font-size: 18px;
+    }
+    
+    .price {
+        font-size: 8px;
+    }
+    
+    .description {
+        font-size: 6px;
+    }
+}
+
+
 
 /*          Natasha end           */
