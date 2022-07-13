@@ -52,23 +52,21 @@
   font-stretch: 100%;
 }
 
-.blog-section__card-btn {
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-  width: 151.400px;
-  height: 53.200px;
-  border: 1px solid #fff;
-}
-
 .blog-section__card-button {
-  color: rgb(255, 255, 255);
+  color: var(--bacis-text-color);
   font-size: 12px;
   font-family: var(--body-font);
   font-weight: var(  --font-bold);
   line-height: 1.1em;
   letter-spacing: .05em;
-  align-self: center;
+  align-self: left;
+  align-items: center;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  width: 151.400px;
+  height: 53.200px;
+  border: 1px solid var(--button-border-color);
 }
 
 .blog-section__cards-btn{
@@ -77,13 +75,18 @@
   margin-top: 20px;
 }
 
+.blog-section__card-button:hover {
+  color: var(--button-text-color);
+  background-color: var(--button-background-color);
+}
+
 .blog-section__cards-btn-prev,
 .blog-section__cards-btn-next {
   width: 50px;
   height: 50px;
   font-weight: 400;
   font-size: 40px;
-  color: var(--buttom-arrow-color);
+  color: var(--button-arrow-color);
   background: url('../img/body-background.png');
 }
 
