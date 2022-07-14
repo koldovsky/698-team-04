@@ -1,3 +1,12 @@
+@media screen and (max-width: 1280px) { div.all {width: 1200px;} }
+@media screen and (max-width: 1140px) { div.all {width: 1024px;} }
+@media screen and (max-width: 992px) { div.all {width: 970px;} } 
+
+@media screen and (max-width: 1280px) { div.picture {width: 1200px;} }
+@media screen and (max-width: 1140px) { div.picture {width: 1024px;} }
+@media screen and (max-width: 992px) { div.picture {width: 970px;} } 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -15,8 +24,8 @@
     font-weight: 400;
 }
 
-h2{
-    color: #fff;
+.title_1{
+    color: #fff !important;
     font-size: inherit;
     font-size: 62px;
     font-family: Teko,sans-serif;
@@ -80,6 +89,20 @@ div{
 }
 
 
+.button {
+    background-color: #ffc123;; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+ }
+
+
+
 .all{
     display: flex;
     flex-direction: row;
@@ -87,4 +110,35 @@ div{
     
 }
 
+.my_section_2{
+    background-color: black;
+}
+
+.testimonials{
+    color:#ffc123;
+}
+
+.w-text-content{
+    color: #fff;
+}
+
+.descr_1{
+    color: rgb(157,157,157);
+}
+
+.descr_2{
+    color: rgb(157,157,157);
+}
+
+.date{
+    color:#ffc123;
+}
+
+.feedback_1{
+    
+}
+
+.my_section{
+
+}
 
