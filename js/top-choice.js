@@ -19,15 +19,10 @@
     function showCurrentSlide() {
         const slideContainer = document.querySelector('.menu__carousel .menu-photos__container');
         slideContainer.innerHTML = slides[slideIdx];
-        if(window.matchMedia('(min-width: 500px)').matches) {
             const secondSlideIdx = slideIdx + 1 >= slides.length ? 0 : slideIdx + 1;
             slideContainer.innerHTML += slides[secondSlideIdx];
-            if(window.matchMedia('(min-width: 761px)').matches) {
-                const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
-                slideContainer.innerHTML += slides[thirdSlideIdx];
-            }
-        }
-        
+            const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
+            slideContainer.innerHTML += slides[thirdSlideIdx];    
     }
 
     function nextSlide() {
@@ -40,13 +35,8 @@
         showCurrentSlide();
     }
 
-    setInterval(nextSlide, 4000);
+    setInterval(nextSlide, 2500);
     showCurrentSlide();
-
-    const nextButton = document.querySelector('.menu__carousel > .button-next');
-    nextButton.addEventListener('click', nextSlide);
-    const prevButton = document.querySelector('.menu__carousel > .button-prev');
-    prevButton.addEventListener('click', prevSlide);
 
     window.addEventListener('resize', showCurrentSlide);
 })()

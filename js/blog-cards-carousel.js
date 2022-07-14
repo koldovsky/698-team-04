@@ -10,9 +10,7 @@
         often host different events and tastings with local and
         world-famous beer producers.
       </p>
-      <div class="blog-section__card-btn">
-        <a href="" class="blog-section__card-button">READ MORE</a>
-      </div>
+      <a class="blog-section__card-button" href="index.html">READ MORE</a>
     </div>`,
     `<div class="blog-section__card">
       <img class="blog-section__card-img" src="img/blog-section__perfect-match.png" alt="Beer photo" />
@@ -23,9 +21,7 @@
         choosing the combination of beer and snack, so that they
         complement each other's flavor. Spoiler: no chips in this list.
       </p>
-      <div class="blog-section__card-btn">
-        <a href="" class="blog-section__card-button">READ MORE</a>
-      </div>
+      <a class="blog-section__card-button" href="index.html">READ MORE</a>
     </div>`,
     `<div class="blog-section__card">
       <img class="blog-section__card-img" src="img/blog-section__festival.png" alt="Irish beer festival photo" />
@@ -36,9 +32,7 @@
         in drinking culture. Our brewmasters will introduce an exclusive
         line of ales especially for our guests at the festiva...
       </p>
-      <div class="blog-section__card-btn">
-        <a href="" class="blog-section__card-button">READ MORE</a>
-      </div>
+      <a class="blog-section__card-button" href="index.html">READ MORE</a>
     </div>`
   ];
   
