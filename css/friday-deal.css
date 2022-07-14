@@ -135,6 +135,9 @@
         }
     }
 
+
+
+
 img.relax {
     width: 550px;
     height: 570px;
@@ -170,6 +173,8 @@ img.relax {
 
 .friday__offer-menu {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .friday-menu-item {
@@ -192,7 +197,7 @@ img.relax {
 }
 .menu-description {
     font-family: 'Open Sans';
-    font-size: 17px;
+    font-size: 16px;
     color: rgb(209,209,209);
 }
 .menu-price {
@@ -231,3 +236,24 @@ img.relax {
     position: absolute;
     right: -15px;
   }
+  @media (max-width: 500px){
+    .friday__offer {
+        width: 100%;
+        height: auto;
+    }
+    .friday__offer-menu {
+        height: auto;
+    }
+    img.relax {
+        width: 100%;
+    }
+    .friday-menu {
+        max-width: 300px;
+    }
+    .friday-line, .menu-line {
+       display: none;
+    }
+    .menu-list-title{
+        font-size: 28px;
+    }
+}
