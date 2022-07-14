@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/about.css" />
     <title>Beer Pub Website</title>
     <meta
       name="description"
@@ -50,7 +51,9 @@
                     <a href="menu.html" class="nav__link">Menu</a>
                   </li>
                   <li class="nav__item">
-                    <a href="index.html#friday-deal" class="nav__link">Friday deal</a>
+                    <a href="index.html#friday-deal" class="nav__link"
+                      >Friday deal</a
+                    >
                   </li>
                   <li class="nav__item">
                     <a href="index.html#blog" class="nav__link">Blog</a>
@@ -103,30 +106,32 @@
       </header>
       <main class="main">
         <!-- ======================== About us ========================== -->
-        <!-- Myroslava Hyryak! -->
 
-        <a href="" class="About us__button">About us</a>
-        <section class="Our story">
-          <img
-            class="about us__banner"
-            src="img/about/about_us_picture.png"
-            alt="beer story"
-          />
-          <h2 class="">PROCESS OF CREATING</h2>
-          <p>
-            This is story about beer, food and life passion Our selection of
-            beers is a result of long and scrupulous experiments that give us
-            thousands of taste combinations. Each and every beer of ours has a
-            unique recipe and a solid standard of preparation, supervised
-            closely by our beer masters. We want you to feel all the richness of
-            an original draft beer and also offer a wide variety of bottled
-            beers from the best local producers.
-          </p>
-          <div class="">
-            <img class="" src="img/about/our_chef.png" alt="team page" />
+        <div class="header__about">
+          <h1 class="header__about__text title">About beer boutiqoe</h1>
+        </div>
+        <section class="story">
+          <div class="story-container container">
+            <div class="about__banner"></div>
+            <div class="about__content">
+              <div class="about__subtitle">Our Story</div>
+              <h2 class="about__title">PROCESS OF CREATING</h2>
+
+              <p class="about__description">
+                Our main goal has always been to create a pub with the best
+                selection of beers and simple food.
+              </p>
+              <p class="about__story-text">
+                Our selection of beers is a result of long and scrupulous
+                experiments that give us thousands of taste combinations. Each
+                and every beer of ours has a unique recipe and a solid standard
+                of preparation, supervised closely by our beer masters. We want
+                you to feel all the richness of an original draft beer and also
+                offer a wide variety of bottled beers from the best local
+                producers.
+              </p>
+            </div>
           </div>
-
-          <p class="about chef__text">JOHN WALKER - our chef</p>
         </section>
       </main>
       <!-- ======================= footer ============================== -->
@@ -136,8 +141,11 @@
             <a href="index.html">
               <img src="img/logo1.svg" alt="logo" class="nav__logo-img" />
             </a>
-            <p class="footer__description-text">Welcome to your favorite pub with draft and bottled beer from the best local and world-famous producers.</p>
-            
+            <p class="footer__description-text">
+              Welcome to your favorite pub with draft and bottled beer from the
+              best local and world-famous producers.
+            </p>
+
             <div class="nav__socials">
               <ul class="nav__socials-list">
                 <li class="nav__socials-item">
@@ -182,10 +190,20 @@
           <div class="footer__navigation navigation">
             <h3 class="footer__title title">Navigation</h3>
             <ul class="navigation__list">
-              <li class="navigation__list-item"><a href="about.html" class="navigation__link">About us</a></li>
-              <li class="navigation__list-item"><a href="menu.html" class="navigation__link">Menu</a></li>
-              <li class="navigation__list-item"><a href="index.html#testimonials" class="navigation__link">Testimonials</a></li>
-              <li class="navigation__list-item"><a href="contacts.html" class="navigation__link">Contacts</a></li>
+              <li class="navigation__list-item">
+                <a href="about.html" class="navigation__link">About us</a>
+              </li>
+              <li class="navigation__list-item">
+                <a href="menu.html" class="navigation__link">Menu</a>
+              </li>
+              <li class="navigation__list-item">
+                <a href="index.html#testimonials" class="navigation__link"
+                  >Testimonials</a
+                >
+              </li>
+              <li class="navigation__list-item">
+                <a href="contacts.html" class="navigation__link">Contacts</a>
+              </li>
             </ul>
           </div>
           <div class="footer__contacts">
@@ -197,7 +215,9 @@
               </li>
               <li class="contacts__list-item">
                 <i class="uil uil-envelope footer__icon"></i>
-                <a href="maito:beerboutique@email.com">beerboutique@email.com</a>
+                <a href="maito:beerboutique@email.com"
+                  >beerboutique@email.com</a
+                >
               </li>
               <li class="contacts__list-item">
                 <i class="uil uil-map-marker footer__icon"></i>
@@ -212,7 +232,7 @@
           <div class="footer__subscribe">
             <h3 class="footer__title title">Subscribe</h3>
             <form class="footer__form email">
-              <input type="text" class="email__input" placeholder="Email*">
+              <input type="text" class="email__input" placeholder="Email*" />
               <button class="email__submit-button button">Subscribe</button>
             </form>
           </div>
